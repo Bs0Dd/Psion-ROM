@@ -58,7 +58,7 @@ cp "$ROOT_DIRECTORY/Series3/pb_v1.91f_acn/pb_v1.91f_acn.bin" pocketbk
 mkdir pocketbk2
 cp "$ROOT_DIRECTORY/Series3a/pb2_v1.30f_acn/pb2_v1.30f_acn.bin" pocketbk2
 
-mkdir series5mx
+mkdir psion5mx
 cp "$ROOT_DIRECTORY/5mx/5mx_v1.05(255)_10_eng/5mx_v1.05(255)_10_eng.bin" psion5mx/5mx.rom
 
 zip -r "mame-roms.zip" *
