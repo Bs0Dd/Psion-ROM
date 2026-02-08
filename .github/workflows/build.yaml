@@ -19,7 +19,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Package the ROMs
-      run: scripts/build.sh
+      run: Scripts/build.sh
 
     - name: Archive the binary
       uses: actions/upload-artifact@v4
