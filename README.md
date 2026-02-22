@@ -181,3 +181,7 @@ Update your device with `Build 75x` to the `Build 756` - [English](Series7/Updat
 * [netBook Optional Components](<Tools/Optional Components/>) - Optional components that can be installed to the netBook.
 
 * [build.sh](Scripts/) - Script that generates a ZIP file structured for use with MAME emulator.
+
+## Guides
+
+* [Using EDisAsm to dump EPOC16 ROMs](https://doc.psion.info/books/siboepoc16/page/using-edisasm-to-dump-epoc16-roms)
