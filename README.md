@@ -94,7 +94,7 @@ Utilities:
 
 | Device             | EPOC32 Version | ROM  Version | Language | Filename                                                                 | MD5 Checksum                       |
 | ------------------ | -------------- | ------------ | -------- | ------------------------------------------------------------------------ | ---------------------------------- |
-| Psion Series 5     | Release 1      | 1.01 (144)   | English  | [S5_v1.01(144)_eng.bin](Series5/S5_v1.01(144)_eng/S5_v1.01(144)_eng.bin) | `d5e5c2aa32f9888e7fec8d2214f1547e` |
+| Psion Series 5     | Release 1      | 1.01 (145)   | English  | [S5_v1.01(145)_eng.bin](Series5/S5_v1.01(145)_eng/S5_v1.01(145)_eng.bin) | `d5e5c2aa32f9888e7fec8d2214f1547e` |
 
 ## Psion Series 5mx / Ericsson MC218
 
