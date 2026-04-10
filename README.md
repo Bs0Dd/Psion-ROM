@@ -131,9 +131,15 @@ Utilities:
 | Psion Series 5mx PRO  | Release 5      | 1.05 (319)   | German (MC218 stuff)   | [sys$rom.bin](5mxPRO/5mxPRO_v1.05(319)_patch_ger/sys$rom.bin) | `d5523fc08e5aca31c1b9e9087f977e49` |
 | Psion Series 5mx PRO  | Release 5      | 1.05 (319)   | English (MC218 stuff)  | [sys$rom.bin](5mxPRO/5mxPRO_v1.05(319)_patch_eng/sys$rom.bin) | `dcd42f29f332a6052e4431040aae4483` |
 
+| Additional files                | Version | Language | Filename                                                                                 | MD5 Checksum                       |
+| ------------------------------- | ------- | -------- | ---------------------------------------------------------------------------------------- | ---------------------------------- |
+| Psion Series 5mx PRO BootLoader | 1.09    | German   | [5mxPRO_BL_v1.09_ger.bin](5mxPRO/BootLoader/5mxPRO_BL_v1.09_ger/5mxPRO_BL_v1.09_ger.bin) | `518c4afee6a1bbf4eaefa3455c6c96f6` |
+
 > [!NOTE]
 >
 > - The 5mx PRO model is released only for the German market and does not have an official English ROM. The English version presented here is based on the 5mx ROM.
+>
+> - The bootloader is the program stored in PRO's Flash memory instead of the EPOC32 system. It loads the OS into RAM from the CF card or via RS232 (YMODEM protocol). Placed at `0x00000000`.
 >
 > - The name `sys$rom.bin` is standard for these files, as the 5mx PRO bootloader expects a file with this name to be present in the root of the CF card in order to load it into RAM.
 >
