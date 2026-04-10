@@ -94,7 +94,12 @@ Utilities:
 
 | Device             | EPOC32 Version | ROM  Version | Language | Filename                                                                 | MD5 Checksum                       |
 | ------------------ | -------------- | ------------ | -------- | ------------------------------------------------------------------------ | ---------------------------------- |
-| Psion Series 5     | Release 1      | 1.01 (145)   | English  | [S5_v1.01(145)_eng.bin](Series5/S5_v1.01(145)_eng/S5_v1.01(145)_eng.bin) | `d5e5c2aa32f9888e7fec8d2214f1547e` |
+| Psion Series 5     | Release 1      | 1.00 (113)   | English  | [S5_v1.00(113)_eng.bin](Series5/S5_v1.00(113)_eng/S5_v1.00(113)_eng.bin) | `1770762d4abddc79e861b5747315945b` |
+| Psion Series 5     | Release 1      | 1.01 (145)   | English  | [S5_v1.01(145)_eng.bin](Series5/S5_v1.01(145)_eng/S5_v1.01(145)_eng.bin) | `cec9ed502a648fcf19d0f2712d0ac54c` |
+
+> [!NOTE]
+>
+> - Early 1.00 (113) version was found on the rare (and probably unreleased) 4MB RAM machine. Written to 3x 2MB Flash chips.
 
 ## Psion Series 5mx / Ericsson MC218
 
