@@ -117,7 +117,7 @@ Utilities:
 >
 > - The 1.05 (250) differs from the 1.05 (255) 16MB only by the version header. Maybe because the device contains 8MB V250 BASE Mask ROM and 2MB V255 UK Flash ROM.
 >
-> - The 1.05 (255) 10MB and 16MB versions differs only by size (8MB Mask + 2MB Flash vs 16MB Mask) and by one unknown header.
+> - The 1.05 (255) 10MB and 16MB versions differs only by size (8MB Mask + 2MB Flash vs 16MB Mask) and by one modified (by jump) subroutine. The 1.05 (250) has the same jump as in 1.05 (255) 16MB.
 >
 > - Ericsson MC218 is a 5mx with a custom design and additional Ericsson software in ROM.
 >
