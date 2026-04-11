@@ -109,6 +109,7 @@ Utilities:
 | Psion Series 5mx   | Release 5      | 1.05 (255)   | English (10MB) | [5mx_v1.05(255)_10_eng.bin](5mx/5mx_v1.05(255)_10_eng/5mx_v1.05(255)_10_eng.bin) | `5f9d1d23a05c84859a070723cc9d83bc` |
 | Psion Series 5mx   | Release 5      | 1.05 (255)   | English (16MB) | [5mx_v1.05(255)_16_eng.bin](5mx/5mx_v1.05(255)_16_eng/5mx_v1.05(255)_16_eng.bin) | `206220fd3316e6e950bdc814d748d542` |
 | Psion Series 5mx   | Release 5      | 1.05 (260)   | English        | [5mx_v1.05(260)_eng.bin](5mx/5mx_v1.05(260)_eng/5mx_v1.05(260)_eng.bin)          | `105df0efa78e573387c9b813475d6577` |
+| Ericsson MC218     | Release 5      | 1.05 (256)   | English        | [MC218_v1.05(256)_eng.bin](MC218/MC218_v1.05(256)_eng/MC218_v1.05(256)_eng.bin)  | `a30ff9f82f64bfa0680846cdb8b78576` |
 | Ericsson MC218     | Release 5      | 1.05 (259)   | English        | [MC218_v1.05(259)_eng.bin](MC218/MC218_v1.05(259)_eng/MC218_v1.05(259)_eng.bin)  | `637d95ae610c5e99b6108e158a323629` |
 | Ericsson MC218     | Release 5      | 1.05 (260)   | German         | [MC218_v1.05(260)_ger.bin](MC218/MC218_v1.05(260)_ger/MC218_v1.05(260)_ger.bin)  | `1209cb6189b2f4c119786608d222ab6b` |
 
