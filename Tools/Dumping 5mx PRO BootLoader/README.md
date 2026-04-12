@@ -23,30 +23,30 @@ A [special version](sys$rom.bin) of the standard 5mx PRO OS (Build 319) is modif
 
 If you have a machine with BootLoader different than **"S5mx BLGE v109"** (check the sticker on the chip); please dump it using the following steps:
 
-1. Run ***PsiROMx*** (embedded);
+1. Run ***PsiROMx*** (embedded);  
 ![PsiROMx](Pictures/psiromx.png)
 
 2. Open ***Advanced options***;
 3. Set ***Start address*** at **51200000**;
-4. Set ***Size (KB)*** to **128**, ***End address*** must be at **51220000**;
+4. Set ***Size (KB)*** to **128**, ***End address*** must be at **51220000**;  
 ![Advanced options](Pictures/psiroaddr.png)
 
-5. Select ***Save ROM***, set name (for example: **sys$bl.bin**);
+5. Select ***Save ROM***, set name (for example: **sys$bl.bin**);  
 ![Save ROM](Pictures/psironam.png)
 
-6. Wait until dumping will be done;
+6. Wait until dumping will be done;  
 ![Dumping](Pictures/psirord.png) ![Dumped](Pictures/psirodn.png)
 
-7. Check the file size, it must be **128 KB** or **131072 Bytes**;
+7. Check the file size, it must be **128 KB** or **131072 Bytes**;  
 ![File properties](Pictures/sysblprop.png)
 
 8. If all is ok, offer your file to this repository.
 
 You can also dump your **EEPROM** (128 Bytes). Unpack additional software by installing **Special Tools.SIS**, then run **Show EEPROM.exe** (at **C:\\**) to list your EEPROM's contents to the screen.
-Take a photo or make an MBM screenshot (**Shift + Ctrl + Fn + S**) and offer it to [bs0dd@bs0dd.net](<mailto:bs0dd@bs0dd.net?subject=Psion 5mx PRO EEPROM>).
+Take a photo or make an MBM screenshot (**Shift + Ctrl + Fn + S**) and offer it to [bs0dd@bs0dd.net](<mailto:bs0dd@bs0dd.net?subject=Psion 5mx PRO EEPROM>).  
 ![Tools installation](Pictures/toolinst.png) ![Show EEPROM](Pictures/showep.png) ![EEPROM](Pictures/eeprom.png)
 
 ***For advanced users***: there are also an **ARLO** tool (Linux loader for Psions) in the Special Tools pack. It's not configured to run Linux, but included due to advanced and expert modes functionality. You can use it for reading and researching some memory sections. **Enjoy!**
 
 ------------------------------------------
-2026 © Bs0Dd [bs0dd.net]
+**2026 © Bs0Dd [bs0dd.net]**
