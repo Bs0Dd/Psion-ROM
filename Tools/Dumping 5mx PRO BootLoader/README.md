@@ -8,7 +8,7 @@ The Psion 5mx PRO has no embedded OS in the Mask ROM, unlike other machines. It 
 It's an AT29LV010A Flash, attached to the CS7 signal.
 
 <table align="center">
-  <tr style="border: none;">
+  <tr>
     <td><img src="Pictures/snowrom.png" alt="Snowdrop scheme" width="500"></td>
     <td><img src="Pictures/BLGEv109.jpg" alt="5mx PRO BootLoader chip" width="500"></td>
   </tr>
@@ -17,7 +17,7 @@ It's an AT29LV010A Flash, attached to the CS7 signal.
 Normally, the device at CS7 is mapped to address 0x70000000, but in PRO, unlike other 5mx machines, MCU (Windermere) runs in Alternate Test ROM (yep, Test!).
 
 <table align="center">
-  <tr style="border: none;">
+  <tr>
     <td><img src="Pictures/snowatestm.png" alt="Snowdrop test mode" width="500"></td>
     <td><img src="Pictures/reverser.jpg" alt="Motherboards" width="500"></td>
   </tr>
