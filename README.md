@@ -134,6 +134,7 @@ Utilities:
 
 | Additional files                | Version | Language | Filename                                                                                 | MD5 Checksum                       |
 | ------------------------------- | ------- | -------- | ---------------------------------------------------------------------------------------- | ---------------------------------- |
+| Psion Series 5mx PRO BootLoader | 1.08    | German   | [5mxPRO_BL_v1.08_ger.bin](5mxPRO/BootLoader/5mxPRO_BL_v1.08_ger/5mxPRO_BL_v1.08_ger.bin) | `cfd1e6b78add173b996f8ee89608ce64` |
 | Psion Series 5mx PRO BootLoader | 1.09    | German   | [5mxPRO_BL_v1.09_ger.bin](5mxPRO/BootLoader/5mxPRO_BL_v1.09_ger/5mxPRO_BL_v1.09_ger.bin) | `518c4afee6a1bbf4eaefa3455c6c96f6` |
 
 > [!NOTE]
