@@ -94,7 +94,12 @@ Utilities:
 
 | Device             | EPOC32 Version | ROM  Version | Language | Filename                                                                 | MD5 Checksum                       |
 | ------------------ | -------------- | ------------ | -------- | ------------------------------------------------------------------------ | ---------------------------------- |
-| Psion Series 5     | Release 1      | 1.01 (144)   | English  | [S5_v1.01(144)_eng.bin](Series5/S5_v1.01(144)_eng/S5_v1.01(144)_eng.bin) | `d5e5c2aa32f9888e7fec8d2214f1547e` |
+| Psion Series 5     | Release 1      | 1.00 (113)   | English  | [S5_v1.00(113)_eng.bin](Series5/S5_v1.00(113)_eng/S5_v1.00(113)_eng.bin) | `1770762d4abddc79e861b5747315945b` |
+| Psion Series 5     | Release 1      | 1.01 (145)   | English  | [S5_v1.01(145)_eng.bin](Series5/S5_v1.01(145)_eng/S5_v1.01(145)_eng.bin) | `cec9ed502a648fcf19d0f2712d0ac54c` |
+
+> [!NOTE]
+>
+> - Early 1.00 (113) version was found on the rare (and probably unreleased) 4MB RAM machine. Written to 3x 2MB Flash chips.
 
 ## Psion Series 5mx / Ericsson MC218
 
@@ -104,6 +109,7 @@ Utilities:
 | Psion Series 5mx   | Release 5      | 1.05 (255)   | English (10MB) | [5mx_v1.05(255)_10_eng.bin](5mx/5mx_v1.05(255)_10_eng/5mx_v1.05(255)_10_eng.bin) | `5f9d1d23a05c84859a070723cc9d83bc` |
 | Psion Series 5mx   | Release 5      | 1.05 (255)   | English (16MB) | [5mx_v1.05(255)_16_eng.bin](5mx/5mx_v1.05(255)_16_eng/5mx_v1.05(255)_16_eng.bin) | `206220fd3316e6e950bdc814d748d542` |
 | Psion Series 5mx   | Release 5      | 1.05 (260)   | English        | [5mx_v1.05(260)_eng.bin](5mx/5mx_v1.05(260)_eng/5mx_v1.05(260)_eng.bin)          | `105df0efa78e573387c9b813475d6577` |
+| Ericsson MC218     | Release 5      | 1.05 (256)   | English        | [MC218_v1.05(256)_eng.bin](MC218/MC218_v1.05(256)_eng/MC218_v1.05(256)_eng.bin)  | `a30ff9f82f64bfa0680846cdb8b78576` |
 | Ericsson MC218     | Release 5      | 1.05 (259)   | English        | [MC218_v1.05(259)_eng.bin](MC218/MC218_v1.05(259)_eng/MC218_v1.05(259)_eng.bin)  | `637d95ae610c5e99b6108e158a323629` |
 | Ericsson MC218     | Release 5      | 1.05 (260)   | German         | [MC218_v1.05(260)_ger.bin](MC218/MC218_v1.05(260)_ger/MC218_v1.05(260)_ger.bin)  | `1209cb6189b2f4c119786608d222ab6b` |
 
@@ -111,7 +117,7 @@ Utilities:
 >
 > - The 1.05 (250) differs from the 1.05 (255) 16MB only by the version header. Maybe because the device contains 8MB V250 BASE Mask ROM and 2MB V255 UK Flash ROM.
 >
-> - The 1.05 (255) 10MB and 16MB versions differs only by size (8MB Mask + 2MB Flash vs 16MB Mask) and by one unknown header.
+> - The 1.05 (255) 10MB and 16MB versions differs only by size (8MB Mask + 2MB Flash vs 16MB Mask) and by one modified (by jump) subroutine. The 1.05 (250) has the same jump as in 1.05 (255) 16MB.
 >
 > - Ericsson MC218 is a 5mx with a custom design and additional Ericsson software in ROM.
 >
@@ -126,9 +132,16 @@ Utilities:
 | Psion Series 5mx PRO  | Release 5      | 1.05 (319)   | German (MC218 stuff)   | [sys$rom.bin](5mxPRO/5mxPRO_v1.05(319)_patch_ger/sys$rom.bin) | `d5523fc08e5aca31c1b9e9087f977e49` |
 | Psion Series 5mx PRO  | Release 5      | 1.05 (319)   | English (MC218 stuff)  | [sys$rom.bin](5mxPRO/5mxPRO_v1.05(319)_patch_eng/sys$rom.bin) | `dcd42f29f332a6052e4431040aae4483` |
 
+| Additional files                | Version | Language | Filename                                                                                 | MD5 Checksum                       |
+| ------------------------------- | ------- | -------- | ---------------------------------------------------------------------------------------- | ---------------------------------- |
+| Psion Series 5mx PRO BootLoader | 1.08    | German   | [5mxPRO_BL_v1.08_ger.bin](5mxPRO/BootLoader/5mxPRO_BL_v1.08_ger/5mxPRO_BL_v1.08_ger.bin) | `cfd1e6b78add173b996f8ee89608ce64` |
+| Psion Series 5mx PRO BootLoader | 1.09    | German   | [5mxPRO_BL_v1.09_ger.bin](5mxPRO/BootLoader/5mxPRO_BL_v1.09_ger/5mxPRO_BL_v1.09_ger.bin) | `518c4afee6a1bbf4eaefa3455c6c96f6` |
+
 > [!NOTE]
 >
 > - The 5mx PRO model is released only for the German market and does not have an official English ROM. The English version presented here is based on the 5mx ROM.
+>
+> - The bootloader is the program stored in PRO's Flash memory instead of the EPOC32 system. It loads the OS into RAM from the CF card or via RS232 (YMODEM protocol). Placed at `0x00000000`.
 >
 > - The name `sys$rom.bin` is standard for these files, as the 5mx PRO bootloader expects a file with this name to be present in the root of the CF card in order to load it into RAM.
 >
@@ -185,3 +198,5 @@ Update your device with `Build 75x` to the `Build 756` - [English](Series7/Updat
 ## Guides
 
 * [Using EDisAsm to dump EPOC16 ROMs](https://doc.psion.info/books/siboepoc16/page/using-edisasm-to-dump-epoc16-roms)
+
+* [Dumping Psion 5mx PRO BootLoader](<Tools/Dumping 5mx PRO BootLoader/README.md>)
