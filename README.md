@@ -135,10 +135,10 @@ Utilities:
 | Psion Series 5mx PRO  | Release 5      | 1.05 (319)   | German (MC218 stuff)   | [sys$rom.bin](5mxPRO/5mxPRO_v1.05(319)_patch_ger/sys$rom.bin) | `d5523fc08e5aca31c1b9e9087f977e49` |
 | Psion Series 5mx PRO  | Release 5      | 1.05 (319)   | English (MC218 stuff)  | [sys$rom.bin](5mxPRO/5mxPRO_v1.05(319)_patch_eng/sys$rom.bin) | `dcd42f29f332a6052e4431040aae4483` |
 
-| Additional files                | Version | Language | Filename                                                                                 | MD5 Checksum                       |
-| ------------------------------- | ------- | -------- | ---------------------------------------------------------------------------------------- | ---------------------------------- |
-| Psion Series 5mx PRO BootLoader | 1.08    | German   | [5mxPRO_BL_v1.08_ger.bin](5mxPRO/BootLoader/5mxPRO_BL_v1.08_ger/5mxPRO_BL_v1.08_ger.bin) | `cfd1e6b78add173b996f8ee89608ce64` |
-| Psion Series 5mx PRO BootLoader | 1.09    | German   | [5mxPRO_BL_v1.09_ger.bin](5mxPRO/BootLoader/5mxPRO_BL_v1.09_ger/5mxPRO_BL_v1.09_ger.bin) | `518c4afee6a1bbf4eaefa3455c6c96f6` |
+| Additional files                | Version | Language          | Filename                                                                                 | MD5 Checksum                       |
+| ------------------------------- | ------- | ----------------- | ---------------------------------------------------------------------------------------- | ---------------------------------- |
+| Psion Series 5mx PRO BootLoader | 1.08    | German (multi*)   | [5mxPRO_BL_v1.08_ger.bin](5mxPRO/BootLoader/5mxPRO_BL_v1.08_ger/5mxPRO_BL_v1.08_ger.bin) | `cfd1e6b78add173b996f8ee89608ce64` |
+| Psion Series 5mx PRO BootLoader | 1.09    | German (multi*)   | [5mxPRO_BL_v1.09_ger.bin](5mxPRO/BootLoader/5mxPRO_BL_v1.09_ger/5mxPRO_BL_v1.09_ger.bin) | `518c4afee6a1bbf4eaefa3455c6c96f6` |
 
 > [!NOTE]
 >
@@ -146,7 +146,9 @@ Utilities:
 >
 > - The bootloader is the program stored in PRO's Flash memory instead of the EPOC32 system. It loads the OS into RAM from the CF card or via RS232 (YMODEM protocol). Placed at `0x00000000`.
 >
-> - The name `sys$rom.bin` is standard for these files, as the 5mx PRO bootloader expects a file with this name to be present in the root of the CF card in order to load it into RAM.
+> - Bootloaders are multilingual (English UK, English US, French, German, Spanish, Italian, Dutch), but has a German welcome splash (with "SERIE"). Language selection depends on serial EEPROM values (at `0x38` and `0x39`).
+>
+> - The name `sys$rom.bin` is standard for OS files, as the 5mx PRO bootloader expects a file with this name to be present in the root of the CF card in order to load it into RAM.
 >
 > - The version 1.05 (273) contains untranslated (English) Email and EPOC Web programs.
 
