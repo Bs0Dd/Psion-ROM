@@ -43,7 +43,7 @@ You can check the BootLoader version via "easter egg": type `about` in the idle 
   <img src="Pictures/bootegg.png" alt="Bootloader easter egg">
 </p>
 
-If you have a machine with a BootLoader different from those listed [here](/README.md#psion-series-5mx-pro) (also with a welcome splash different than **German**),
+If you have a machine with a BootLoader different from those listed [here](/README.md#psion-series-5mx-pro) (also with a welcome splash different from the **German**),
 please dump it using the following steps:
 
 1. Run ***PsiROMx*** (embedded);  
