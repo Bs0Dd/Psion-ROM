@@ -14,6 +14,7 @@ ROMs:
 - [Psion Workabout](#psion-workabout)
 - [Psion Workabout MX](#psion-workabout-mx)
 - [Psion Series 5](#psion-series-5)
+- [Oregon Scientific Osaris](#oregon-scientific-osaris)
 - [Psion Series 5mx / Ericsson MC218](#psion-series-5mx--ericsson-mc218)
 - [Psion Series 5mx PRO](#psion-series-5mx-pro)
 - [Psion Revo / Diamond Mako](#psion-revo--diamond-mako)
@@ -100,6 +101,13 @@ Utilities:
 > [!NOTE]
 >
 > - Early 1.00 (113) version was found on the rare (and probably unreleased) 4MB RAM machine. Written to 3x 2MB Flash chips.
+
+## Oregon Scientific Osaris
+
+| Device                   | EPOC32 Version | ROM  Version | Language | Filename                                                                            | MD5 Checksum                       |
+| ------------------------ | -------------- | ------------ | -------- | ----------------------------------------------------------------------------------- | ---------------------------------- |
+| Oregon Scientific Osaris | Release 4      | 1.02 (209)   | English  | [Osaris_v1.02(209)_eng.bin](Osaris/Osaris_v1.02(209)_eng/Osaris_v1.02(209)_eng.bin) | `993fb293997d19a3f8471440018f6954` |
+| Oregon Scientific Osaris | Release 4      | 1.02 (209)   | French   | [Osaris_v1.02(209)_fre.bin](Osaris/Osaris_v1.02(209)_fre/Osaris_v1.02(209)_fre.bin) | `fad90a0f511b6bddf161ccb343693830` |
 
 ## Psion Series 5mx / Ericsson MC218
 
