@@ -187,12 +187,13 @@ Update your device with `Build 75x` to the `Build 756` - [English](Series7/Updat
 
 ## Psion netBook
 
-| Device         | EPOC32 Version  | ROM  Version | Language | Filename                                        | MD5 Checksum                       |
-| -------------- | --------------- | ------------ | -------- | ----------------------------------------------- | ---------------------------------- |
-| Psion netBook  | Release 5 (158) | 1.05 (450)   | English  | [OS.IMG](netBook/netBook_v1.05(450)_eng/OS.IMG) | `abe8d3e1ed4ff9c653da3f0d276a258e` |
-| Psion netBook  | Release 5 (158) | 1.05 (456)   | French   | [OS.IMG](netBook/netBook_v1.05(456)_fre/OS.IMG) | `55fe8f6e4dede03db1d6b7968a6ec094` |
-| Psion netBook  | Release 5 (158) | 1.05 (457)   | German   | [OS.IMG](netBook/netBook_v1.05(457)_ger/OS.IMG) | `10c05093f6b7b93f685fecb535ea2008` |
-| Psion netBook  | Release 5 (158) | 1.05 (462)   | Spain    | [OS.IMG](netBook/netBook_v1.05(462)_spa/OS.IMG) | `294e46953a1748f3766e63d6884e0fbd` |
+| Device           | EPOC32 Version  | ROM  Version | Language     | Filename                                          | MD5 Checksum                       |
+| ---------------- | --------------- | ------------ | ------------ | ------------------------------------------------- | ---------------------------------- |
+| Psion netBook    | Release 5 (158) | 1.05 (450)   | English (UK) | [OS.IMG](netBook/netBook_v1.05(450)_eng/OS.IMG)   | `abe8d3e1ed4ff9c653da3f0d276a258e` |
+| Psion netBook    | Release 5 (158) | 1.05 (456)   | French       | [OS.IMG](netBook/netBook_v1.05(456)_fre/OS.IMG)   | `55fe8f6e4dede03db1d6b7968a6ec094` |
+| Psion netBook    | Release 5 (158) | 1.05 (457)   | German       | [OS.IMG](netBook/netBook_v1.05(457)_ger/OS.IMG)   | `10c05093f6b7b93f685fecb535ea2008` |
+| Psion netBook    | Release 5 (158) | 1.05 (462)   | Spain        | [OS.IMG](netBook/netBook_v1.05(462)_spa/OS.IMG)   | `294e46953a1748f3766e63d6884e0fbd` |
+| Psion MalayBook  | Release 5 (158) | 1.05 (281)   | English (UK) | [OS.IMG](netBook/MalayBook_v1.05(281)_eng/OS.IMG) | `8385b24c624b241897191ccf5e703d59` |
 
 | Additional files         | Version | Language | Filename                                                                                  | MD5 Checksum                       |
 | ------------------------ | ------- | -------- | ----------------------------------------------------------------------------------------- | ---------------------------------- |
@@ -205,6 +206,8 @@ Update your device with `Build 75x` to the `Build 756` - [English](Series7/Updat
 > - The name `OS.IMG` is standard for these files, as the netBook bootloader expects a file with this name to be present in the root of the CF card in order to load it into RAM.
 >
 > - The German version is patched and includes the OPL Toolbar component, which was forgotten by the developers and is included in other ROM versions.
+>
+> - The MalayBook is a version of the Psion netBook with slightly different hardware and software, produced for use by students in Malaysia, in an experimental program to replace printed textbooks with netBooks.
 
 ## Tools
 
