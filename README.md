@@ -177,24 +177,30 @@ Utilities:
 
 ## Psion Series 7
 
-| Device         | EPOC32 Version | ROM  Version           | Language | Filename                                                                                | MD5 Checksum                       |
-| -------------- | -------------- | ---------------------- | -------- | --------------------------------------------------------------------------------------- | ---------------------------------- |
-| Psion Series 7 | Release 5      | 1.05 (254) (Build 754) | English  | [S7_v1.05(254)_b754_eng.bin](Series7/S7_v1.05(254)_b754_eng/S7_v1.05(254)_b754_eng.bin) | `cf8f5cf06082b133a1828781f65f02c0` |
-| Psion Series 7 | Release 5      | 1.05 (254) (Build 756) | English  | [S7_v1.05(254)_b756_eng.bin](Series7/S7_v1.05(254)_b756_eng/S7_v1.05(254)_b756_eng.bin) | `c78c3cf48d2fd7b8f0d5bc9cadd79159` |
+| Device         | EPOC32 Version        | ROM  Version | Language | Filename                                                                                | MD5 Checksum                       |
+| -------------- | --------------------- | ------------ | -------- | --------------------------------------------------------------------------------------- | ---------------------------------- |
+| Psion Series 7 | Release 5 (Build 754) | 1.05 (254)   | English  | [S7_v1.05(254)_b754_eng.bin](Series7/S7_v1.05(254)_b754_eng/S7_v1.05(254)_b754_eng.bin) | `cf8f5cf06082b133a1828781f65f02c0` |
+| Psion Series 7 | Release 5 (Build 756) | 1.05 (254)   | English  | [S7_v1.05(254)_b756_eng.bin](Series7/S7_v1.05(254)_b756_eng/S7_v1.05(254)_b756_eng.bin) | `c78c3cf48d2fd7b8f0d5bc9cadd79159` |
 
 Update your device with `Build 75x` to the `Build 756` - [English](Series7/Updates/ENG/), [American English](Series7/Updates/USA/).
 
 
 ## Psion netBook
 
-| Device         | EPOC32 Version | ROM  Version  | Language | Filename                                        | MD5 Checksum                       |
-| -------------- | -------------- | ------------- | -------- | ----------------------------------------------- | ---------------------------------- |
-| Psion netBook  | Release 5      | 1.05 (450)    | English  | [OS.IMG](netBook/netBook_v1.05(450)_eng/OS.IMG) | `abe8d3e1ed4ff9c653da3f0d276a258e` |
-| Psion netBook  | Release 5      | 1.05 (456)    | French   | [OS.IMG](netBook/netBook_v1.05(456)_fre/OS.IMG) | `55fe8f6e4dede03db1d6b7968a6ec094` |
-| Psion netBook  | Release 5      | 1.05 (457)    | German   | [OS.IMG](netBook/netBook_v1.05(457)_ger/OS.IMG) | `10c05093f6b7b93f685fecb535ea2008` |
-| Psion netBook  | Release 5      | 1.05 (462)    | Spain    | [OS.IMG](netBook/netBook_v1.05(462)_spa/OS.IMG) | `294e46953a1748f3766e63d6884e0fbd` |
+| Device         | EPOC32 Version  | ROM  Version | Language | Filename                                        | MD5 Checksum                       |
+| -------------- | --------------- | ------------ | -------- | ----------------------------------------------- | ---------------------------------- |
+| Psion netBook  | Release 5 (158) | 1.05 (450)   | English  | [OS.IMG](netBook/netBook_v1.05(450)_eng/OS.IMG) | `abe8d3e1ed4ff9c653da3f0d276a258e` |
+| Psion netBook  | Release 5 (158) | 1.05 (456)   | French   | [OS.IMG](netBook/netBook_v1.05(456)_fre/OS.IMG) | `55fe8f6e4dede03db1d6b7968a6ec094` |
+| Psion netBook  | Release 5 (158) | 1.05 (457)   | German   | [OS.IMG](netBook/netBook_v1.05(457)_ger/OS.IMG) | `10c05093f6b7b93f685fecb535ea2008` |
+| Psion netBook  | Release 5 (158) | 1.05 (462)   | Spain    | [OS.IMG](netBook/netBook_v1.05(462)_spa/OS.IMG) | `294e46953a1748f3766e63d6884e0fbd` |
+
+| Additional files         | Version | Language | Filename                                                                                  | MD5 Checksum                       |
+| ------------------------ | ------- | -------- | ----------------------------------------------------------------------------------------- | ---------------------------------- |
+| Psion netBook BootLoader | 011     | English  | [netBook_BL_v011_eng.bin](netBook/BootLoader/netBook_BL_v011_eng/netBook_BL_v011_eng.bin) | `06700e0713d90a0d4ed15fbcb0a8653d` |
 
 > [!NOTE]
+>
+> - The bootloader is the program stored in netBook's Personality Module (Flash chip), in fact it's a "micro"-EPOC distributive. It loads the OS into RAM from the CF card or via RS232 (YMODEM protocol). Placed at `0x00000000`.
 >
 > - The name `OS.IMG` is standard for these files, as the netBook bootloader expects a file with this name to be present in the root of the CF card in order to load it into RAM.
 >
