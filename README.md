@@ -187,24 +187,25 @@ Update your device with `Build 75x` to the `Build 756` - [English](Series7/Updat
 
 ## Psion netBook
 
-| Device           | EPOC32 Version  | ROM  Version             | Language               | Filename                                                        | MD5 Checksum                       |
-| ---------------- | --------------- | ------------------------ | ---------------------- | --------------------------------------------------------------- | ---------------------------------- |
-| Psion netBook    | Release 5       | 1.05 (254) - Build 153   | English (UK)           | [OS.IMG](netBook/netBook_v1.05(254)_eng/OS.IMG)                 | `cc32decce9ef796be62d6d0e29a94db8` |
-| Psion netBook    | Release 5       | 1.05 (254) - Build 153   | English (US)           | [OS.IMG](netBook/netBook_v1.05(254)_usa/OS.IMG)                 | `ea7840a89b741108fc744689ba26d586` |
-| Psion netBook    | Release 5       | 1.05 (254) - Build 154   | English (UK) (Dummy)   | [OS.IMG](netBook/netBook_v1.05(254)_dummy_eng/OS.IMG)           | `557ffd7d5f349b59dbf963a77d8e7e74` |
-| Psion netBook    | Release 5       | 1.05 (254) - Build 154   | English (US) (Dummy)   | [OS.IMG](netBook/netBook_v1.05(254)_dummy_usa/OS.IMG)           | `a5bf1ab5db0c5524642aa3a656905176` |
-| Psion netBook    | Release 5       | 1.05 (450) - Release 158 | English (UK)           | [OS.IMG](netBook/netBook_v1.05(450)_eng/OS.IMG)                 | `604113a34b94eca357e12e8d0953f9d1` |
-| Psion netBook    | Release 5       | 1.05 (450) - Release 158 | English (UK) (Patched) | [OS.IMG](netBook/Patched/netBook_v1.05(450)_patch_eng/OS.IMG)   | `2d2ec2f88f86f853ae9876f95fbfb9ea` |
-| Psion netBook    | Release 5       | 1.05 (453) - Release 158 | English (US)           | [OS.IMG](netBook/netBook_v1.05(453)_usa/OS.IMG)                 | `8b623ffb7ec8a0d111f4688c46aa6e6b` |
-| Psion netBook    | Release 5       | 1.05 (453) - Release 158 | English (US) (Patched) | [OS.IMG](netBook/Patched/netBook_v1.05(453)_patch_usa/OS.IMG)   | `12d5225e02a20ac5b4726498d95bf0cf` |
-| Psion netBook    | Release 5       | 1.05 (456) - Release 158 | French                 | [OS.IMG](netBook/netBook_v1.05(456)_fre/OS.IMG)                 | `55fe8f6e4dede03db1d6b7968a6ec094` |
-| Psion netBook    | Release 5       | 1.05 (456) - Release 158 | French (Patched)       | [OS.IMG](netBook/Patched/netBook_v1.05(456)_patch_fre/OS.IMG)   | `dc0c669b0ecaa36073b52b70eedebba9` |
-| Psion netBook    | Release 5       | 1.05 (457) - Release 158 | German                 | [OS.IMG](netBook/netBook_v1.05(457)_ger/OS.IMG)                 | `5f37fc82a8609e91f7094a4f6b40b160` |
-| Psion netBook    | Release 5       | 1.05 (457) - Release 158 | German (Patched)       | [OS.IMG](netBook/Patched/netBook_v1.05(457)_patch_ger/OS.IMG)   | `10c05093f6b7b93f685fecb535ea2008` |
-| Psion netBook    | Release 5       | 1.05 (462) - Release 158 | Spanish                | [OS.IMG](netBook/netBook_v1.05(462)_spa/OS.IMG)                 | `294e46953a1748f3766e63d6884e0fbd` |
-| Psion netBook    | Release 5       | 1.05 (462) - Release 158 | Spanish (Patched)      | [OS.IMG](netBook/Patched/netBook_v1.05(462)_patch_spa/OS.IMG)   | `4bf9bc55b1bdd09ab8bdd23b41a549be` |
-| Psion MalayBook  | Release 5       | 1.05 (281) - Release 158 | English (UK)           | [OS.IMG](netBook/MalayBook_v1.05(281)_eng/OS.IMG)               | `8385b24c624b241897191ccf5e703d59` |
-| Psion MalayBook  | Release 5       | 1.05 (281) - Release 158 | English (UK) (Patched) | [OS.IMG](netBook/Patched/MalayBook_v1.05(281)_patch_eng/OS.IMG) | `6f2d93d50a88dfe4640b06fefbe89aba` |
+| Device           | EPOC32 Version  | ROM  Version             | Language                         | Filename                                                        | MD5 Checksum                       |
+| ---------------- | --------------- | ------------------------ | -------------------------------- | --------------------------------------------------------------- | ---------------------------------- |
+| Psion netBook    | Release 5       | 1.05 (254) - Build 153   | English (UK)                     | [OS.IMG](netBook/netBook_v1.05(254)_eng/OS.IMG)                 | `cc32decce9ef796be62d6d0e29a94db8` |
+| Psion netBook    | Release 5       | 1.05 (254) - Build 153   | English (US)                     | [OS.IMG](netBook/netBook_v1.05(254)_usa/OS.IMG)                 | `ea7840a89b741108fc744689ba26d586` |
+| Psion netBook    | Release 5       | 1.05 (254) - Build 154   | English (UK) (Dummy)             | [OS.IMG](netBook/netBook_v1.05(254)_dummy_eng/OS.IMG)           | `557ffd7d5f349b59dbf963a77d8e7e74` |
+| Psion netBook    | Release 5       | 1.05 (254) - Build 154   | English (US) (Dummy)             | [OS.IMG](netBook/netBook_v1.05(254)_dummy_usa/OS.IMG)           | `a5bf1ab5db0c5524642aa3a656905176` |
+| Psion netBook    | Release 5       | 1.05 (450) - Release 158 | English (UK)                     | [OS.IMG](netBook/netBook_v1.05(450)_eng/OS.IMG)                 | `604113a34b94eca357e12e8d0953f9d1` |
+| Psion netBook    | Release 5       | 1.05 (450) - Release 158 | English (UK) (Patched)           | [OS.IMG](netBook/Patched/netBook_v1.05(450)_patch_eng/OS.IMG)   | `2d2ec2f88f86f853ae9876f95fbfb9ea` |
+| Psion netBook    | Release 5       | 1.05 (450) - Release 158 | English (UK) (Patch + New Clock) | [OS.IMG](netBook/Patched/netBook_v1.05(450)_patch2_eng/OS.IMG)  | `abe8d3e1ed4ff9c653da3f0d276a258e` |
+| Psion netBook    | Release 5       | 1.05 (453) - Release 158 | English (US)                     | [OS.IMG](netBook/netBook_v1.05(453)_usa/OS.IMG)                 | `8b623ffb7ec8a0d111f4688c46aa6e6b` |
+| Psion netBook    | Release 5       | 1.05 (453) - Release 158 | English (US) (Patched)           | [OS.IMG](netBook/Patched/netBook_v1.05(453)_patch_usa/OS.IMG)   | `12d5225e02a20ac5b4726498d95bf0cf` |
+| Psion netBook    | Release 5       | 1.05 (456) - Release 158 | French                           | [OS.IMG](netBook/netBook_v1.05(456)_fre/OS.IMG)                 | `55fe8f6e4dede03db1d6b7968a6ec094` |
+| Psion netBook    | Release 5       | 1.05 (456) - Release 158 | French (Patched)                 | [OS.IMG](netBook/Patched/netBook_v1.05(456)_patch_fre/OS.IMG)   | `dc0c669b0ecaa36073b52b70eedebba9` |
+| Psion netBook    | Release 5       | 1.05 (457) - Release 158 | German                           | [OS.IMG](netBook/netBook_v1.05(457)_ger/OS.IMG)                 | `5f37fc82a8609e91f7094a4f6b40b160` |
+| Psion netBook    | Release 5       | 1.05 (457) - Release 158 | German (Patched)                 | [OS.IMG](netBook/Patched/netBook_v1.05(457)_patch_ger/OS.IMG)   | `10c05093f6b7b93f685fecb535ea2008` |
+| Psion netBook    | Release 5       | 1.05 (462) - Release 158 | Spanish                          | [OS.IMG](netBook/netBook_v1.05(462)_spa/OS.IMG)                 | `294e46953a1748f3766e63d6884e0fbd` |
+| Psion netBook    | Release 5       | 1.05 (462) - Release 158 | Spanish (Patched)                | [OS.IMG](netBook/Patched/netBook_v1.05(462)_patch_spa/OS.IMG)   | `4bf9bc55b1bdd09ab8bdd23b41a549be` |
+| Psion MalayBook  | Release 5       | 1.05 (281) - Release 158 | English (UK)                     | [OS.IMG](netBook/MalayBook_v1.05(281)_eng/OS.IMG)               | `8385b24c624b241897191ccf5e703d59` |
+| Psion MalayBook  | Release 5       | 1.05 (281) - Release 158 | English (UK) (Patched)           | [OS.IMG](netBook/Patched/MalayBook_v1.05(281)_patch_eng/OS.IMG) | `6f2d93d50a88dfe4640b06fefbe89aba` |
 
 | Additional files         | Version | Language | Filename                                                                                  | MD5 Checksum                       |
 | ------------------------ | ------- | -------- | ----------------------------------------------------------------------------------------- | ---------------------------------- |
@@ -218,7 +219,9 @@ Update your device with `Build 75x` to the `Build 756` - [English](Series7/Updat
 >
 > - "Dummy" versions does not include basic applications (Word, Agenda, etc.). You can install them from the [SIS packages](<Tools/Netbook Dummy SIS Packages/>).
 >
-> - Patched versions contain some bugfixes and improvements made by Petr "Poke" Petyovsky. The list of changes can be found [here](netBook/Patched/readme.txt).
+> - In some language versions (Release 158) certain components are included separately to the OS. You can find them [here](<Tools/Optional Components/>).
+>
+> - Patched versions (Release 158) contain some bugfixes and improvements made by Petr "Poke" Petyovsky. The list of changes can be found [here](netBook/Patched/readme.txt).
 >
 > - German variant of Psion netBook OS image (Release 158) was distributed without source of OPL toolbar. If you're an OPL developer, you can copy `toolbar` source from [here](netBook/Patched/netBook_v1.05(457)_patch_ger/MissingFiles).
 >
