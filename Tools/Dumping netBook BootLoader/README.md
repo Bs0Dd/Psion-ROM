@@ -4,11 +4,11 @@
   <img src="Pictures/splash.png" alt="Splash">
 </p>
 
-The Psion netBook has no embedded OS, like 5mx PRO. It has a 2 MB BootLoader chip on it's Personality module.  
+The Psion netBook has no embedded OS, like 5mx PRO. It has a 2 MB BootLoader chip on its Personality module.  
 It's a Flash chip (may be Sharp or Intel), attached to the CS0 signal (so available at 0x00000000).
 
 <p align="center">
-  <img src="Pictures/pmflash.jpg" alt="netBook PM flash chip">
+  <img src="Pictures/pmflash.jpg" alt="netBook PM flash chip" width="350">
 </p>
 
 Normally, there is no access to the BootLoader chip from the OS, as it's not MMU-mapped.  
