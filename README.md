@@ -244,3 +244,5 @@ Update your device with `Build 75x` to the `Build 756` - [English](Series7/Updat
 * [Using EDisAsm to dump EPOC16 ROMs](https://doc.psion.info/books/siboepoc16/page/using-edisasm-to-dump-epoc16-roms)
 
 * [Dumping Psion 5mx PRO BootLoader](<Tools/Dumping 5mx PRO BootLoader/README.md>)
+
+* [Dumping Psion netBook BootLoader](<Tools/Dumping netBook BootLoader/README.md>)
