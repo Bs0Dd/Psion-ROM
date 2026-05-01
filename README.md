@@ -2,7 +2,7 @@
 
 This repository contains official ROM files for old Psion Devices.
 All the files could be downloaded for free from the official Psion / Psion Teklogix Website in the past.
-Some of this ROM files are upgraded (patched) to solve some bugs or add functionality.
+Some of these ROM files are upgraded (patched) to solve some bugs or add functionality.
 
 ROMs:
 
@@ -40,7 +40,7 @@ Utilities:
 
 > [!NOTE]
 >
-> - Early Series 3 devices (see 1.77f) used two ROM chips resulting in two images.
+> - Early Series 3 devices (see 1.77f) used two ROM chips, resulting in two images.
 >
 > - The Psion Series 3s is the name given to a Series 3 variant that includes the Sheet application in the ROM.
 
@@ -100,7 +100,7 @@ Utilities:
 
 > [!NOTE]
 >
-> - Early 1.00 (113) version was found on the rare (and probably unreleased) 4MB RAM machine. Written to 3x 2MB Flash chips.
+> - Early 1.00 (113) version was found on a rare (and probably unreleased) 4MB RAM machine. Written to 3x 2MB Flash chips.
 
 ## Oregon Scientific Osaris
 
@@ -128,16 +128,17 @@ Utilities:
 >
 > - The 1.05 (250) differs from the 1.05 (255) 16MB only by the version header. Maybe because the device contains 8MB V250 BASE Mask ROM and 2MB V255 UK Flash ROM.
 >
-> - The 1.05 (255) 10MB and 16MB versions differs only by size (8MB Mask + 2MB Flash vs 16MB Mask) and by one modified (by jump) subroutine. The 1.05 (250) has the same jump as in 1.05 (255) 16MB.
+> - The 1.05 (255) 10MB and 16MB versions differ only by size (8MB Mask + 2MB Flash vs 16MB Mask) and by one modified (by jump) subroutine. The 1.05 (250) has the same jump as in 1.05 (255) 16MB.
 >
 > - Ericsson MC218 is a 5mx with a custom design and additional Ericsson software in ROM.
 >
-> - For some reason, the German version of the MC218 ROM does not contain the templates present in the English version.
+> - For some reason, the German and French versions of the MC218 ROM do not contain the templates present in the English version.
 
 ## Psion Series 5mx PRO
 
 | Device                | EPOC32 Version | ROM  Version | Language               | Filename                                                      | MD5 Checksum                       |
 | --------------------- | -------------- | ------------ | ---------------------- | ------------------------------------------------------------- | ---------------------------------- |
+| Psion Series 5mx PRO  | Release 5      | 1.05 (265)   | German                 | [sys$rom.bin](5mxPRO/5mxPRO_v1.05(265)_ger/sys$rom.bin)       | `714e38aaa43f3c7b6439635687c19a18` |
 | Psion Series 5mx PRO  | Release 5      | 1.05 (273)   | German                 | [sys$rom.bin](5mxPRO/5mxPRO_v1.05(273)_ger/sys$rom.bin)       | `11f9a0b6a89236a1cef017c3f067399b` |
 | Psion Series 5mx PRO  | Release 5      | 1.05 (319)   | German                 | [sys$rom.bin](5mxPRO/5mxPRO_v1.05(319)_ger/sys$rom.bin)       | `8a30e8216bdec88783fb0a3ac159a988` |
 | Psion Series 5mx PRO  | Release 5      | 1.05 (319)   | German (MC218 stuff)   | [sys$rom.bin](5mxPRO/5mxPRO_v1.05(319)_patch_ger/sys$rom.bin) | `d5523fc08e5aca31c1b9e9087f977e49` |
@@ -154,11 +155,11 @@ Utilities:
 >
 > - The bootloader is the program stored in PRO's Flash memory instead of the EPOC32 system. It loads the OS into RAM from the CF card or via RS232 (YMODEM protocol). Placed at `0x00000000`.
 >
-> - Bootloaders are multilingual (English UK, English US, French, German, Spanish, Italian, Dutch), but has a German welcome splash (with "SERIE"). Language selection depends on serial EEPROM values (at `0x38` and `0x39`).
+> - Bootloaders are multilingual (English UK, English US, French, German, Spanish, Italian, Dutch), but have a German welcome splash (with "SERIE"). Language selection depends on serial EEPROM values (at `0x38` and `0x39`).
 >
 > - The name `sys$rom.bin` is standard for OS files, as the 5mx PRO bootloader expects a file with this name to be present in the root of the CF card in order to load it into RAM.
 >
-> - The version 1.05 (273) contains untranslated (English) Email and EPOC Web programs.
+> - Versions 1.05 (265) and 1.05 (273) contain the untranslated (English) EPOC Messaging Suite (Email, Web, associated Control Panel components).
 
 ## Psion Revo / Diamond Mako
 
@@ -173,7 +174,7 @@ Utilities:
 
 > [!NOTE]
 >
-> - The Diamond Mako is a Revo Plus (16MB) for the USA/Canada market. It uses the same English ROM but reports the `English (US)` locale which is set by the EEPROM flag.
+> - The Diamond Mako is a Revo Plus (16MB) for the USA/Canada market. It uses the same English ROM but reports the `English (US)` locale, which is set by the EEPROM flag.
 
 ## Psion Series 7
 
@@ -213,17 +214,17 @@ Update your device with `Build 75x` to the `Build 756` - [English](Series7/Updat
 
 > [!NOTE]
 >
-> - The bootloader is the program stored in netBook's Personality Module (Flash chip), in fact it's a "micro"-EPOC distributive. It loads the OS into RAM from the CF card or via RS232 (YMODEM protocol). Placed at `0x00000000`.
+> - The bootloader is the program stored in the netBook's Personality Module (Flash chip), in fact, it's a "micro"-EPOC distributive. It loads the OS into RAM from the CF card or via RS232 (YMODEM protocol). Placed at `0x00000000`.
 >
 > - The name `OS.IMG` is standard for these files, as the netBook bootloader expects a file with this name to be present in the root of the CF card in order to load it into RAM.
 >
-> - "Dummy" versions does not include basic applications (Word, Agenda, etc.). You can install them from the [SIS packages](<Tools/Netbook Dummy SIS Packages/>).
+> - "Dummy" versions do not include basic applications (Word, Agenda, etc.). You can install them from the [SIS packages](<Tools/Netbook Dummy SIS Packages/>).
 >
-> - In some language versions (Release 158) certain components are included separately to the OS. You can find them [here](<Tools/Optional Components/>).
+> - In some language versions (Release 158), certain components are included separately from the OS. You can find them [here](<Tools/Optional Components/>).
 >
 > - Patched versions (Release 158) contain some bugfixes and improvements made by Petr "Poke" Petyovsky. The list of changes can be found [here](netBook/Patched/readme.txt).
 >
-> - German variant of Psion netBook OS image (Release 158) was distributed without source of OPL toolbar. If you're an OPL developer, you can copy `toolbar` source from [here](netBook/Patched/netBook_v1.05(457)_patch_ger/MissingFiles).
+> - German variant of Psion netBook OS image (Release 158) was distributed without the source of the OPL toolbar. If you're an OPL developer, you can copy the `toolbar` source from [here](netBook/Patched/netBook_v1.05(457)_patch_ger/MissingFiles).
 >
 > - The MalayBook is a version of the Psion netBook with slightly different hardware and software, produced for use by students in Malaysia, in an experimental program to replace printed textbooks with netBooks.
 
@@ -235,9 +236,9 @@ Update your device with `Build 75x` to the `Build 756` - [English](Series7/Updat
 
 * [Toolbar](netBook/Patched/netBook_v1.05(457)_patch_ger/MissingFiles) - OPL Toolbar component missing in the netBook German ROM.
 
-* [netBook Optional Components](<Tools/Optional Components/>) - Optional components that can be installed to the netBook.
+* [netBook Optional Components](<Tools/Optional Components/>) - Optional components that can be installed on the netBook.
 
-* [build.sh](Scripts/) - Script that generates a ZIP file structured for use with MAME emulator.
+* [build.sh](Scripts/) - Script that generates a ZIP file structured for use with the MAME emulator.
 
 ## Guides
 
