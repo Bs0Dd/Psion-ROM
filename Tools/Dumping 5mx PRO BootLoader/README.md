@@ -37,7 +37,14 @@ A [special version](sys$rom.bin) of the standard 5mx PRO OS (Build 319) is modif
   <img src="Pictures/modspl.png" alt="Modified OS">
 </p>
 
-If you have a machine with BootLoader different than **"S5mx BLGE v109"** (check the sticker on the chip); please dump it using the following steps:
+You can check the BootLoader version via "easter egg": type `about` in the idle mode (when BootLoader waits for a CF card or serial YMODEM transmission).
+<p align="center">
+  <img src="Pictures/bootidle.png" alt="Bootloader idle"><br><br>
+  <img src="Pictures/bootegg.png" alt="Bootloader easter egg">
+</p>
+
+If you have a machine with a BootLoader different from those listed [here](/README.md#psion-series-5mx-pro) (also with a welcome splash different from the **German**),
+please dump it using the following steps:
 
 1. Run ***PsiROMx*** (embedded);  
 ![PsiROMx](Pictures/psiromx.png)

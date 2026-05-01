@@ -1,0 +1,29 @@
+Note - this document is best viewed in Notepad with Word Wrap set.
+
+
+Installing netBook software from the PC
+=======================================
+
+It is necessary to install Psiwin, the PC-Psion communication software, before attempting to install the netBook software from the PC.
+
+The netBook comes with a full operating system, including a full set of built-in applications. An image of this OS is on this CD. Also on this CD is an image of an operating system without the built-in applications.
+
+These images can be installed on the netBook from the PC. To do this, ensure that the netBook and the PC are connected, and at the same baud rate - see the PsiWin documentation for details of how to do this. Remove all sources of power from the netBook (external, main battery, and back-up battery), and all CF and PC cards. After several seconds, return power to the netBook. The netBook will reset itself, and ask for either a bootable CF card to be inserted, or for the Rominst application to be started.
+
+To run the Rominst application, select the full or basic OS from the "System S/W" tab, and follow the instructions. The OS will take about twenty minutes to download, after which the netBook will automatically boot itself. Note  that the Rominst application contains a connection engine - PsiWin should therefore be shut down before attempting to run Rominst.
+
+It is also possible to install any of the built-in applications to the netBook. To do this, simply connect the netBook to the PC (and ensure that the baud rates are correct), and select the appropriate application from the "System S/W" tab. The application will be installed.
+
+Please refer to the Psiwin documentation in case of any difficulties.
+
+
+Installing netBook software from the CF card
+============================================
+
+It is also possible to install either the OS or any of the built-in apps by CF card. To install the OS from CF card,  first obtain a CF card with the correct OS image. Then, follow the netBook reset instructions above. When prompted, insert the bootable CF card.
+
+To install any of the built-in apps from CF card, insert the CF card (with the SIS file saved on it), and run the SIS file from the system screen.
+
+(c) Psion Plc 1999-2000
+Document version 1.01F
+06/01/2000

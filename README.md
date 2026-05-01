@@ -2,7 +2,7 @@
 
 This repository contains official ROM files for old Psion Devices.
 All the files could be downloaded for free from the official Psion / Psion Teklogix Website in the past.
-Some of this ROM files are upgraded (patched) to solve some bugs or add functionality.
+Some of these ROM files are upgraded (patched) to solve some bugs or add functionality.
 
 ROMs:
 
@@ -14,6 +14,7 @@ ROMs:
 - [Psion Workabout](#psion-workabout)
 - [Psion Workabout MX](#psion-workabout-mx)
 - [Psion Series 5](#psion-series-5)
+- [Oregon Scientific Osaris](#oregon-scientific-osaris)
 - [Psion Series 5mx / Ericsson MC218](#psion-series-5mx--ericsson-mc218)
 - [Psion Series 5mx PRO](#psion-series-5mx-pro)
 - [Psion Revo / Diamond Mako](#psion-revo--diamond-mako)
@@ -39,7 +40,7 @@ Utilities:
 
 > [!NOTE]
 >
-> - Early Series 3 devices (see 1.77f) used two ROM chips resulting in two images.
+> - Early Series 3 devices (see 1.77f) used two ROM chips, resulting in two images.
 >
 > - The Psion Series 3s is the name given to a Series 3 variant that includes the Sheet application in the ROM.
 
@@ -99,7 +100,14 @@ Utilities:
 
 > [!NOTE]
 >
-> - Early 1.00 (113) version was found on the rare (and probably unreleased) 4MB RAM machine. Written to 3x 2MB Flash chips.
+> - Early 1.00 (113) version was found on a rare (and probably unreleased) 4MB RAM machine. Written to 3x 2MB Flash chips.
+
+## Oregon Scientific Osaris
+
+| Device                   | EPOC32 Version | ROM  Version | Language | Filename                                                                            | MD5 Checksum                       |
+| ------------------------ | -------------- | ------------ | -------- | ----------------------------------------------------------------------------------- | ---------------------------------- |
+| Oregon Scientific Osaris | Release 4      | 1.02 (209)   | English  | [Osaris_v1.02(209)_eng.bin](Osaris/Osaris_v1.02(209)_eng/Osaris_v1.02(209)_eng.bin) | `993fb293997d19a3f8471440018f6954` |
+| Oregon Scientific Osaris | Release 4      | 1.02 (209)   | French   | [Osaris_v1.02(209)_fre.bin](Osaris/Osaris_v1.02(209)_fre/Osaris_v1.02(209)_fre.bin) | `fad90a0f511b6bddf161ccb343693830` |
 
 ## Psion Series 5mx / Ericsson MC218
 
@@ -109,33 +117,37 @@ Utilities:
 | Psion Series 5mx   | Release 5      | 1.05 (255)   | English (10MB) | [5mx_v1.05(255)_10_eng.bin](5mx/5mx_v1.05(255)_10_eng/5mx_v1.05(255)_10_eng.bin) | `5f9d1d23a05c84859a070723cc9d83bc` |
 | Psion Series 5mx   | Release 5      | 1.05 (255)   | English (16MB) | [5mx_v1.05(255)_16_eng.bin](5mx/5mx_v1.05(255)_16_eng/5mx_v1.05(255)_16_eng.bin) | `206220fd3316e6e950bdc814d748d542` |
 | Psion Series 5mx   | Release 5      | 1.05 (260)   | English        | [5mx_v1.05(260)_eng.bin](5mx/5mx_v1.05(260)_eng/5mx_v1.05(260)_eng.bin)          | `105df0efa78e573387c9b813475d6577` |
+| Psion Series 5mx   | Release 5      | 1.05 (292)   | French         | [5mx_v1.05(292)_fre.bin](5mx/5mx_v1.05(292)_fre/5mx_v1.05(292)_fre.bin)          | `537dcdf5de1fa10ba499dc29e1a9de40` |
+| Psion Series 5mx   | Release 5      | 1.05 (315)   | French         | [5mx_v1.05(315)_fre.bin](5mx/5mx_v1.05(315)_fre/5mx_v1.05(315)_fre.bin)          | `a3d75b478a30dd7c5ed223b642d2f4db` |
 | Ericsson MC218     | Release 5      | 1.05 (256)   | English        | [MC218_v1.05(256)_eng.bin](MC218/MC218_v1.05(256)_eng/MC218_v1.05(256)_eng.bin)  | `a30ff9f82f64bfa0680846cdb8b78576` |
 | Ericsson MC218     | Release 5      | 1.05 (259)   | English        | [MC218_v1.05(259)_eng.bin](MC218/MC218_v1.05(259)_eng/MC218_v1.05(259)_eng.bin)  | `637d95ae610c5e99b6108e158a323629` |
 | Ericsson MC218     | Release 5      | 1.05 (260)   | German         | [MC218_v1.05(260)_ger.bin](MC218/MC218_v1.05(260)_ger/MC218_v1.05(260)_ger.bin)  | `1209cb6189b2f4c119786608d222ab6b` |
+| Ericsson MC218     | Release 5      | 1.05 (262)   | French         | [MC218_v1.05(262)_fre.bin](MC218/MC218_v1.05(262)_fre/MC218_v1.05(262)_fre.bin)  | `00e360c5652494ef9bd0e61be127db85` |
 
 > [!NOTE]
 >
 > - The 1.05 (250) differs from the 1.05 (255) 16MB only by the version header. Maybe because the device contains 8MB V250 BASE Mask ROM and 2MB V255 UK Flash ROM.
 >
-> - The 1.05 (255) 10MB and 16MB versions differs only by size (8MB Mask + 2MB Flash vs 16MB Mask) and by one modified (by jump) subroutine. The 1.05 (250) has the same jump as in 1.05 (255) 16MB.
+> - The 1.05 (255) 10MB and 16MB versions differ only by size (8MB Mask + 2MB Flash vs 16MB Mask) and by one modified (by jump) subroutine. The 1.05 (250) has the same jump as in 1.05 (255) 16MB.
 >
 > - Ericsson MC218 is a 5mx with a custom design and additional Ericsson software in ROM.
 >
-> - For some reason, the German version of the MC218 ROM does not contain the templates present in the English version.
+> - For some reason, the German and French versions of the MC218 ROM do not contain the templates present in the English version.
 
 ## Psion Series 5mx PRO
 
 | Device                | EPOC32 Version | ROM  Version | Language               | Filename                                                      | MD5 Checksum                       |
 | --------------------- | -------------- | ------------ | ---------------------- | ------------------------------------------------------------- | ---------------------------------- |
+| Psion Series 5mx PRO  | Release 5      | 1.05 (265)   | German                 | [sys$rom.bin](5mxPRO/5mxPRO_v1.05(265)_ger/sys$rom.bin)       | `714e38aaa43f3c7b6439635687c19a18` |
 | Psion Series 5mx PRO  | Release 5      | 1.05 (273)   | German                 | [sys$rom.bin](5mxPRO/5mxPRO_v1.05(273)_ger/sys$rom.bin)       | `11f9a0b6a89236a1cef017c3f067399b` |
 | Psion Series 5mx PRO  | Release 5      | 1.05 (319)   | German                 | [sys$rom.bin](5mxPRO/5mxPRO_v1.05(319)_ger/sys$rom.bin)       | `8a30e8216bdec88783fb0a3ac159a988` |
 | Psion Series 5mx PRO  | Release 5      | 1.05 (319)   | German (MC218 stuff)   | [sys$rom.bin](5mxPRO/5mxPRO_v1.05(319)_patch_ger/sys$rom.bin) | `d5523fc08e5aca31c1b9e9087f977e49` |
 | Psion Series 5mx PRO  | Release 5      | 1.05 (319)   | English (MC218 stuff)  | [sys$rom.bin](5mxPRO/5mxPRO_v1.05(319)_patch_eng/sys$rom.bin) | `dcd42f29f332a6052e4431040aae4483` |
 
-| Additional files                | Version | Language | Filename                                                                                 | MD5 Checksum                       |
-| ------------------------------- | ------- | -------- | ---------------------------------------------------------------------------------------- | ---------------------------------- |
-| Psion Series 5mx PRO BootLoader | 1.08    | German   | [5mxPRO_BL_v1.08_ger.bin](5mxPRO/BootLoader/5mxPRO_BL_v1.08_ger/5mxPRO_BL_v1.08_ger.bin) | `cfd1e6b78add173b996f8ee89608ce64` |
-| Psion Series 5mx PRO BootLoader | 1.09    | German   | [5mxPRO_BL_v1.09_ger.bin](5mxPRO/BootLoader/5mxPRO_BL_v1.09_ger/5mxPRO_BL_v1.09_ger.bin) | `518c4afee6a1bbf4eaefa3455c6c96f6` |
+| Additional files                | Version | Language          | Filename                                                                                 | MD5 Checksum                       |
+| ------------------------------- | ------- | ----------------- | ---------------------------------------------------------------------------------------- | ---------------------------------- |
+| Psion Series 5mx PRO BootLoader | 1.08    | German (multi*)   | [5mxPRO_BL_v1.08_ger.bin](5mxPRO/BootLoader/5mxPRO_BL_v1.08_ger/5mxPRO_BL_v1.08_ger.bin) | `cfd1e6b78add173b996f8ee89608ce64` |
+| Psion Series 5mx PRO BootLoader | 1.09    | German (multi*)   | [5mxPRO_BL_v1.09_ger.bin](5mxPRO/BootLoader/5mxPRO_BL_v1.09_ger/5mxPRO_BL_v1.09_ger.bin) | `518c4afee6a1bbf4eaefa3455c6c96f6` |
 
 > [!NOTE]
 >
@@ -143,45 +155,78 @@ Utilities:
 >
 > - The bootloader is the program stored in PRO's Flash memory instead of the EPOC32 system. It loads the OS into RAM from the CF card or via RS232 (YMODEM protocol). Placed at `0x00000000`.
 >
-> - The name `sys$rom.bin` is standard for these files, as the 5mx PRO bootloader expects a file with this name to be present in the root of the CF card in order to load it into RAM.
+> - Bootloaders are multilingual (English UK, English US, French, German, Spanish, Italian, Dutch), but have a German welcome splash (with "SERIE"). Language selection depends on serial EEPROM values (at `0x38` and `0x39`).
 >
-> - The version 1.05 (273) contains untranslated (English) Email and EPOC Web programs.
+> - The name `sys$rom.bin` is standard for OS files, as the 5mx PRO bootloader expects a file with this name to be present in the root of the CF card in order to load it into RAM.
+>
+> - Versions 1.05 (265) and 1.05 (273) contain the untranslated (English) EPOC Messaging Suite (Email, Web, associated Control Panel components).
 
 ## Psion Revo / Diamond Mako
 
-| Device     | EPOC32 Version | ROM  Version | Language | Filename                                                              | MD5 Checksum                       |
-| ---------- | -------------- | ------------ | -------- | --------------------------------------------------------------------- | ---------------------------------- |
-| Psion Revo | Release 5      | 1.06 (390)   | English  | [Revo_1.06_390_eng.bin](Revo/Revo_1.06_390_eng/Revo_1.06_390_eng.bin) | `9f0cb14967d29cfa52d11892f36db8bf` |
-| Psion Revo | Release 5      | 1.06 (352)   | German   | [Revo_1.06_352_ger.bin](Revo/Revo_1.06_352_ger/Revo_1.06_352_ger.bin) | `18f5636c6b1df19ffa7afa2b18bab96f` |
+| Device     | EPOC32 Version | ROM  Version | Language | Filename                                                                    | MD5 Checksum                       |
+| ---------- | -------------- | ------------ | -------- | --------------------------------------------------------------------------- | ---------------------------------- |
+| Psion Revo | Release 5      | 1.06 (352)   | German   | [Revo_v1.06(352)_ger.bin](Revo/Revo_v1.06(352)_ger/Revo_v1.06(352)_ger.bin) | `18f5636c6b1df19ffa7afa2b18bab96f` |
+| Psion Revo | Release 5      | 1.06 (361)   | English  | [Revo_v1.06(361)_eng.bin](Revo/Revo_v1.06(361)_eng/Revo_v1.06(361)_eng.bin) | `77c39c71119aef56575e6f96cb920f2b` |
+| Psion Revo | Release 5      | 1.06 (369)   | German   | [Revo_v1.06(369)_ger.bin](Revo/Revo_v1.06(369)_ger/Revo_v1.06(369)_ger.bin) | `30bdc71e709d4142c87170ad4417a52d` |
+| Psion Revo | Release 5      | 1.06 (390)   | English  | [Revo_v1.06(390)_eng.bin](Revo/Revo_v1.06(390)_eng/Revo_v1.06(390)_eng.bin) | `9f0cb14967d29cfa52d11892f36db8bf` |
+| Psion Revo | Release 5      | 1.06 (391)   | German   | [Revo_v1.06(391)_ger.bin](Revo/Revo_v1.06(391)_ger/Revo_v1.06(391)_ger.bin) | `122c7fb21cd47684e1eb79fcaafda156` |
+| Psion Revo | Release 5      | 1.06 (392)   | French   | [Revo_v1.06(392)_fre.bin](Revo/Revo_v1.06(392)_fre/Revo_v1.06(392)_fre.bin) | `a0050a38c7b226de2c0907c0ef3b7719` |
 
 > [!NOTE]
 >
-> - The Diamond Mako is a Revo Plus (16MB) for the USA/Canada market. It uses the same English ROM but reports the `English (US)` locale which is set by the EEPROM flag.
+> - The Diamond Mako is a Revo Plus (16MB) for the USA/Canada market. It uses the same English ROM but reports the `English (US)` locale, which is set by the EEPROM flag.
 
 ## Psion Series 7
 
 | Device         | EPOC32 Version | ROM  Version           | Language | Filename                                                                                | MD5 Checksum                       |
 | -------------- | -------------- | ---------------------- | -------- | --------------------------------------------------------------------------------------- | ---------------------------------- |
-| Psion Series 7 | Release 5      | 1.05 (254) (Build 754) | English  | [S7_v1.05(254)_b754_eng.bin](Series7/S7_v1.05(254)_b754_eng/S7_v1.05(254)_b754_eng.bin) | `cf8f5cf06082b133a1828781f65f02c0` |
-| Psion Series 7 | Release 5      | 1.05 (254) (Build 756) | English  | [S7_v1.05(254)_b756_eng.bin](Series7/S7_v1.05(254)_b756_eng/S7_v1.05(254)_b756_eng.bin) | `c78c3cf48d2fd7b8f0d5bc9cadd79159` |
+| Psion Series 7 | Release 5      | 1.05 (254) - Build 754 | English  | [S7_v1.05(254)_b754_eng.bin](Series7/S7_v1.05(254)_b754_eng/S7_v1.05(254)_b754_eng.bin) | `cf8f5cf06082b133a1828781f65f02c0` |
+| Psion Series 7 | Release 5      | 1.05 (254) - Build 756 | English  | [S7_v1.05(254)_b756_eng.bin](Series7/S7_v1.05(254)_b756_eng/S7_v1.05(254)_b756_eng.bin) | `c78c3cf48d2fd7b8f0d5bc9cadd79159` |
 
 Update your device with `Build 75x` to the `Build 756` - [English](Series7/Updates/ENG/), [American English](Series7/Updates/USA/).
 
 
 ## Psion netBook
 
-| Device         | EPOC32 Version | ROM  Version  | Language | Filename                                        | MD5 Checksum                       |
-| -------------- | -------------- | ------------- | -------- | ----------------------------------------------- | ---------------------------------- |
-| Psion netBook  | Release 5      | 1.05 (450)    | English  | [OS.IMG](netBook/netBook_v1.05(450)_eng/OS.IMG) | `abe8d3e1ed4ff9c653da3f0d276a258e` |
-| Psion netBook  | Release 5      | 1.05 (456)    | French   | [OS.IMG](netBook/netBook_v1.05(456)_fre/OS.IMG) | `55fe8f6e4dede03db1d6b7968a6ec094` |
-| Psion netBook  | Release 5      | 1.05 (457)    | German   | [OS.IMG](netBook/netBook_v1.05(457)_ger/OS.IMG) | `10c05093f6b7b93f685fecb535ea2008` |
-| Psion netBook  | Release 5      | 1.05 (462)    | Spain    | [OS.IMG](netBook/netBook_v1.05(462)_spa/OS.IMG) | `294e46953a1748f3766e63d6884e0fbd` |
+| Device           | EPOC32 Version  | ROM  Version             | Language                         | Filename                                                        | MD5 Checksum                       |
+| ---------------- | --------------- | ------------------------ | -------------------------------- | --------------------------------------------------------------- | ---------------------------------- |
+| Psion netBook    | Release 5       | 1.05 (254) - Build 153   | English (UK)                     | [OS.IMG](netBook/netBook_v1.05(254)_eng/OS.IMG)                 | `cc32decce9ef796be62d6d0e29a94db8` |
+| Psion netBook    | Release 5       | 1.05 (254) - Build 153   | English (US)                     | [OS.IMG](netBook/netBook_v1.05(254)_usa/OS.IMG)                 | `ea7840a89b741108fc744689ba26d586` |
+| Psion netBook    | Release 5       | 1.05 (254) - Build 154   | English (UK) (Dummy)             | [OS.IMG](netBook/netBook_v1.05(254)_dummy_eng/OS.IMG)           | `557ffd7d5f349b59dbf963a77d8e7e74` |
+| Psion netBook    | Release 5       | 1.05 (254) - Build 154   | English (US) (Dummy)             | [OS.IMG](netBook/netBook_v1.05(254)_dummy_usa/OS.IMG)           | `a5bf1ab5db0c5524642aa3a656905176` |
+| Psion netBook    | Release 5       | 1.05 (450) - Release 158 | English (UK)                     | [OS.IMG](netBook/netBook_v1.05(450)_eng/OS.IMG)                 | `604113a34b94eca357e12e8d0953f9d1` |
+| Psion netBook    | Release 5       | 1.05 (450) - Release 158 | English (UK) (Patched)           | [OS.IMG](netBook/Patched/netBook_v1.05(450)_patch_eng/OS.IMG)   | `2d2ec2f88f86f853ae9876f95fbfb9ea` |
+| Psion netBook    | Release 5       | 1.05 (450) - Release 158 | English (UK) (Patch + New Clock) | [OS.IMG](netBook/Patched/netBook_v1.05(450)_patch2_eng/OS.IMG)  | `abe8d3e1ed4ff9c653da3f0d276a258e` |
+| Psion netBook    | Release 5       | 1.05 (453) - Release 158 | English (US)                     | [OS.IMG](netBook/netBook_v1.05(453)_usa/OS.IMG)                 | `8b623ffb7ec8a0d111f4688c46aa6e6b` |
+| Psion netBook    | Release 5       | 1.05 (453) - Release 158 | English (US) (Patched)           | [OS.IMG](netBook/Patched/netBook_v1.05(453)_patch_usa/OS.IMG)   | `12d5225e02a20ac5b4726498d95bf0cf` |
+| Psion netBook    | Release 5       | 1.05 (456) - Release 158 | French                           | [OS.IMG](netBook/netBook_v1.05(456)_fre/OS.IMG)                 | `55fe8f6e4dede03db1d6b7968a6ec094` |
+| Psion netBook    | Release 5       | 1.05 (456) - Release 158 | French (Patched)                 | [OS.IMG](netBook/Patched/netBook_v1.05(456)_patch_fre/OS.IMG)   | `dc0c669b0ecaa36073b52b70eedebba9` |
+| Psion netBook    | Release 5       | 1.05 (457) - Release 158 | German                           | [OS.IMG](netBook/netBook_v1.05(457)_ger/OS.IMG)                 | `5f37fc82a8609e91f7094a4f6b40b160` |
+| Psion netBook    | Release 5       | 1.05 (457) - Release 158 | German (Patched)                 | [OS.IMG](netBook/Patched/netBook_v1.05(457)_patch_ger/OS.IMG)   | `10c05093f6b7b93f685fecb535ea2008` |
+| Psion netBook    | Release 5       | 1.05 (462) - Release 158 | Spanish                          | [OS.IMG](netBook/netBook_v1.05(462)_spa/OS.IMG)                 | `294e46953a1748f3766e63d6884e0fbd` |
+| Psion netBook    | Release 5       | 1.05 (462) - Release 158 | Spanish (Patched)                | [OS.IMG](netBook/Patched/netBook_v1.05(462)_patch_spa/OS.IMG)   | `4bf9bc55b1bdd09ab8bdd23b41a549be` |
+| Psion MalayBook  | Release 5       | 1.05 (281) - Release 158 | English (UK)                     | [OS.IMG](netBook/MalayBook_v1.05(281)_eng/OS.IMG)               | `8385b24c624b241897191ccf5e703d59` |
+| Psion MalayBook  | Release 5       | 1.05 (281) - Release 158 | English (UK) (Patched)           | [OS.IMG](netBook/Patched/MalayBook_v1.05(281)_patch_eng/OS.IMG) | `6f2d93d50a88dfe4640b06fefbe89aba` |
+
+| Additional files         | Version | Language | Filename                                                                                  | MD5 Checksum                       |
+| ------------------------ | ------- | -------- | ----------------------------------------------------------------------------------------- | ---------------------------------- |
+| Psion netBook BootLoader | 011     | English  | [netBook_BL_v011_eng.bin](netBook/BootLoader/netBook_BL_v011_eng/netBook_BL_v011_eng.bin) | `06700e0713d90a0d4ed15fbcb0a8653d` |
 
 > [!NOTE]
 >
+> - The bootloader is the program stored in the netBook's Personality Module (Flash chip), in fact, it's a "micro"-EPOC distributive. It loads the OS into RAM from the CF card or via RS232 (YMODEM protocol). Placed at `0x00000000`.
+>
 > - The name `OS.IMG` is standard for these files, as the netBook bootloader expects a file with this name to be present in the root of the CF card in order to load it into RAM.
 >
-> - The German version is patched and includes the OPL Toolbar component, which was forgotten by the developers and is included in other ROM versions.
+> - "Dummy" versions do not include basic applications (Word, Agenda, etc.). You can install them from the [SIS packages](<Tools/Netbook Dummy SIS Packages/>).
+>
+> - In some language versions (Release 158), certain components are included separately from the OS. You can find them [here](<Tools/Optional Components/>).
+>
+> - Patched versions (Release 158) contain some bugfixes and improvements made by Petr "Poke" Petyovsky. The list of changes can be found [here](netBook/Patched/readme.txt).
+>
+> - German variant of Psion netBook OS image (Release 158) was distributed without the source of the OPL toolbar. If you're an OPL developer, you can copy the `toolbar` source from [here](netBook/Patched/netBook_v1.05(457)_patch_ger/MissingFiles).
+>
+> - The MalayBook is a version of the Psion netBook with slightly different hardware and software, produced for use by students in Malaysia, in an experimental program to replace printed textbooks with netBooks.
 
 ## Tools
 
@@ -189,14 +234,16 @@ Update your device with `Build 75x` to the `Build 756` - [English](Series7/Updat
 
 * [Bpatch](<Tools/Netbook Patch Software/>) - Psion netBook OS.IMG patcher.
 
-* [Toolbar](<Tools/Netbook_DE Missing Files/>) - OPL Toolbar component missing in the netBook German ROM.
+* [Toolbar](netBook/Patched/netBook_v1.05(457)_patch_ger/MissingFiles) - OPL Toolbar component missing in the netBook German ROM.
 
-* [netBook Optional Components](<Tools/Optional Components/>) - Optional components that can be installed to the netBook.
+* [netBook Optional Components](<Tools/Optional Components/>) - Optional components that can be installed on the netBook.
 
-* [build.sh](Scripts/) - Script that generates a ZIP file structured for use with MAME emulator.
+* [build.sh](Scripts/) - Script that generates a ZIP file structured for use with the MAME emulator.
 
 ## Guides
 
 * [Using EDisAsm to dump EPOC16 ROMs](https://doc.psion.info/books/siboepoc16/page/using-edisasm-to-dump-epoc16-roms)
 
 * [Dumping Psion 5mx PRO BootLoader](<Tools/Dumping 5mx PRO BootLoader/README.md>)
+
+* [Dumping Psion netBook BootLoader](<Tools/Dumping netBook BootLoader/README.md>)
