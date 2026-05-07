@@ -34,7 +34,7 @@ Utilities:
 | ----------------- | -------------- | ----------- | --------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------ |
 | Psion Series 3    |                | 1.77f       | English                                                   | [s3_v1.77f_eng1.bin](Series3/s3_v1.77f_eng/s3_v1.77f_eng1.bin)<br />[s3_v1.77f_eng2.bin](Series3/s3_v1.77f_eng/s3_v1.77f_eng2.bin) | `f45adbb8e951ac1be922279197baf6c6`<br />`3bf167eeb8f41d88981ed12632414e1d` |
 | Psion Series 3    |                | 1.80f       | English<br />French<br />German<br />Italian              | [s3_v1.80f_multi.bin](Series3/s3_v1.80f_multi/s3_v1.80f_multi.bin)| `46f29831bdf170abbb5972d78465e4ab`                           |
-| Acorn Pocket Book |                | 1.91f       |                                                           | [pb_v1.91f_acn.bin](Series3/pb_v1.91f_acn/pb_v1.91f_acn.bin)<br />[acspell.bin](Series3/pb_v1.91f_acn/acspell.bin) | `2e3fd0717451d7621b664d7eb85e89be`<br />`4ecb448d5828855dbeaf223cef5fe346` |
+| Acorn Pocket Book |                | 1.91f       | English                                                   | [pb_v1.91f_acn.bin](Series3/pb_v1.91f_acn/pb_v1.91f_acn.bin)<br />[acspell.bin](Series3/pb_v1.91f_acn/acspell.bin) | `2e3fd0717451d7621b664d7eb85e89be`<br />`4ecb448d5828855dbeaf223cef5fe346` |
 | Psion Series 3s   |                | 1.91f       | English                                                   | [s3_v1.91f_eng.bin](Series3/s3_v1.91f_eng/s3_v1.91f_eng.bin)      | `44ee1451e72b8f662f369a86b488d4db`                           |
 | Psion Series 3    |                | 1.91f       | English<br />French<br />German<br />Spanish<br />Italian | [s3_v1.91f_multi.bin](Series3/s3_v1.91f_multi/s3_v1.91f_multi.bin)| `8a303be0714a49759a0982ea3a71aaf7`                           |
 
@@ -46,15 +46,15 @@ Utilities:
 
 ## Psion Series 3a / Acorn Pocket Book II
 
-| Device                     | EPOC16 Version | ROM Version | Language         | Filename                                                         | MD5 Checksum                       | MAME System   |
-| -------------------------- | -------------- | ----------- | ---------------- | ---------------------------------------------------------------- | ---------------------------------- | ------------- |
-| Psion Series 3a (1MB)      | 3.20f          | 3.22f       | English          | [s3a_v3.22f_eng.bin](Series3a/s3a_v3.22f_eng/s3a_v3.22f_eng.bin) | `782048b4bdca628b01a7f853b6ec4c70` | `psion3a`     |
-| Acorn Pocket Book II (1MB) |                | 1.30f       | English          | [pb2_v1.30f_acn.bin](Series3a/pb2_v1.30f_acn/pb2_v1.30f_acn.bin) | `e8eb24cba162fef331519b7c55136537` |               |
-| Psion Series 3a (2MB)      | 3.55f          | 3.40f       | English          | [s3a_v3.40f_eng.bin](Series3a/s3a_v3.40f_eng/s3a_v3.40f_eng.bin) | `cfcd7be36fad529405d3abd48294af31` | `psion3a2`    |
-| Psion Series 3a (2MB)      |                | 3.40f       | Italian          | [s3a_v3.40f_ita.bin](Series3a/s3a_v3.40f_ita/s3a_v3.40f_ita.bin) | `8f9e750bb628c6f3c3189b50475215a5` | `psion3a2_it` |
-| Psion Series 3a (2MB)      |                | 3.40f       | American English | [s3a_v3.40f_usa.bin](Series3a/s3a_v3.40f_usa/s3a_v3.40f_usa.bin) | `a6264f08982608391843a7f331b6404b` | `psion3a2_us` |
-| Psion Series 3a (2MB)      | 3.55f          | 3.41f       | German           | [s3a_v3.41f_ger.bin](Series3a/s3a_v3.41f_ger/s3a_v3.41f_ger.bin) | `45c8db03c357e5784158f966c5de7018` | `psion3a2_de` |
-| Psion Series 3a (2MB)      |                | 3.43f       | Russian          | [s3a_v3.43f_rus.bin](Series3a/s3a_v3.43f_rus/s3a_v3.43f_rus.bin) | `4ebca4c28c3cc5317206e4103a1b702a` | `psion3a2_ru` |
+| Device                     | EPOC16 Version | ROM Version | Language     | Filename                                                         | MD5 Checksum                       | MAME System   |
+| -------------------------- | -------------- | ----------- | ------------ | ---------------------------------------------------------------- | ---------------------------------- | ------------- |
+| Psion Series 3a (1MB)      | 3.20f          | 3.22f       | English (UK) | [s3a_v3.22f_eng.bin](Series3a/s3a_v3.22f_eng/s3a_v3.22f_eng.bin) | `782048b4bdca628b01a7f853b6ec4c70` | `psion3a`     |
+| Acorn Pocket Book II (1MB) | 3.55f          | 1.30f       | English (UK) | [pb2_v1.30f_acn.bin](Series3a/pb2_v1.30f_acn/pb2_v1.30f_acn.bin) | `e8eb24cba162fef331519b7c55136537` | `pocketbk2`   |
+| Psion Series 3a (2MB)      | 3.55f          | 3.40f       | English (UK) | [s3a_v3.40f_eng.bin](Series3a/s3a_v3.40f_eng/s3a_v3.40f_eng.bin) | `cfcd7be36fad529405d3abd48294af31` | `psion3a2`    |
+| Psion Series 3a (2MB)      | 3.55f          | 3.40f       | Italian      | [s3a_v3.40f_ita.bin](Series3a/s3a_v3.40f_ita/s3a_v3.40f_ita.bin) | `8f9e750bb628c6f3c3189b50475215a5` | `psion3a2_it` |
+| Psion Series 3a (2MB)      | 3.55f          | 3.40f       | English (US) | [s3a_v3.40f_usa.bin](Series3a/s3a_v3.40f_usa/s3a_v3.40f_usa.bin) | `a6264f08982608391843a7f331b6404b` | `psion3a2_us` |
+| Psion Series 3a (2MB)      | 3.55f          | 3.41f       | German       | [s3a_v3.41f_ger.bin](Series3a/s3a_v3.41f_ger/s3a_v3.41f_ger.bin) | `45c8db03c357e5784158f966c5de7018` | `psion3a2_de` |
+| Psion Series 3a (2MB)      | 3.95f          | 3.43f       | Russian      | [s3a_v3.43f_rus.bin](Series3a/s3a_v3.43f_rus/s3a_v3.43f_rus.bin) | `4ebca4c28c3cc5317206e4103a1b702a` | `psion3a2_ru` |
 
 ## Psion Series 3c
 
@@ -68,7 +68,7 @@ Utilities:
 | ---------------- | -------------- | ------------ | -------- | ----------------------------------------------------------------------- | ---------------------------------- |
 | Psion Series 3mx | 4.08f          | 6.16f        | English  | [maple_v6.16f_eng.bin](Series3mx/maple_v6.16f_eng/maple_v6.16f_eng.bin) | `64572cc3522447179d1e6f3b8fb45360` |
 | Psion Series 3mx | 4.10f          | 6.17f        | Dutch    | [maple_v6.17f_nl.bin](Series3mx/maple_v6.17f_nl/maple_v6.17f_nl.bin)    | `1c0be65220e3e2ab6d75b83975e3805b` |
-| Psion Series 3mx |                | 6.20f        | French   | [maple_v6.20f_fre.bin](Series3mx/maple_v6.20f_fre/maple_v6.20f_fre.bin) | `1b367e2fb862545cf420ff74a7f85ea7` |
+| Psion Series 3mx | 4.10f          | 6.20f        | French   | [maple_v6.20f_fre.bin](Series3mx/maple_v6.20f_fre/maple_v6.20f_fre.bin) | `1b367e2fb862545cf420ff74a7f85ea7` |
 
 ## Psion Siena
 
