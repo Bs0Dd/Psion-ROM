@@ -61,6 +61,7 @@ Utilities:
 | Device          | EPOC16 Version | ROM  Version | Language | Filename                                                         | MD5 Checksum                       |
 | --------------- | -------------- | ------------ | -------- | ---------------------------------------------------------------- | ---------------------------------- |
 | Psion Series 3c | 3.91f          | 5.20f        | English  | [oak_v5.20f_eng.bin](Series3c/oak_v5.20f_eng/oak_v5.20f_eng.bin) | `3c1a079f53c00916e8d0dc11b35a0390` |
+| Psion Series 3c | 3.91f          | 5.23f        | German   | [oak_v5.23f_ger.bin](Series3c/oak_v5.23f_ger/oak_v5.23f_ger.bin) | `36910152e1108b987fde89dcdb561dbc` |
 
 ## Psion Series 3mx
 
