@@ -1,7 +1,7 @@
 # Psion Devices ROMs
 
-This repository contains official ROM files for old Psion Devices.
-All the files could be downloaded for free from the official Psion / Psion Teklogix Website in the past.
+This repository contains official and dumped ROM files for old Psion Devices.
+Previously, some files could be downloaded for free from the official Psion / Psion Teklogix Website.
 Some of these ROM files are upgraded (patched) to solve some bugs or add functionality.
 
 ROMs:
