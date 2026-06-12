@@ -32,11 +32,11 @@ Utilities:
 
 | Device            | EPOC16 Version | ROM Version | Language                                                  | Filename                                                          | MD5 Checksum                                                 |
 | ----------------- | -------------- | ----------- | --------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------ |
-| Psion Series 3    |                | 1.77f       | English                                                   | [s3_v1.77f_eng1.bin](Series3/s3_v1.77f_eng/s3_v1.77f_eng1.bin)<br />[s3_v1.77f_eng2.bin](Series3/s3_v1.77f_eng/s3_v1.77f_eng2.bin) | `f45adbb8e951ac1be922279197baf6c6`<br />`3bf167eeb8f41d88981ed12632414e1d` |
-| Psion Series 3    |                | 1.80f       | English<br />French<br />German<br />Italian              | [s3_v1.80f_multi.bin](Series3/s3_v1.80f_multi/s3_v1.80f_multi.bin)| `46f29831bdf170abbb5972d78465e4ab`                           |
-| Acorn Pocket Book |                | 1.91f       | English                                                   | [pb_v1.91f_acn.bin](Series3/pb_v1.91f_acn/pb_v1.91f_acn.bin)<br />[acspell.bin](Series3/pb_v1.91f_acn/acspell.bin) | `2e3fd0717451d7621b664d7eb85e89be`<br />`4ecb448d5828855dbeaf223cef5fe346` |
-| Psion Series 3s   |                | 1.91f       | English                                                   | [s3_v1.91f_eng.bin](Series3/s3_v1.91f_eng/s3_v1.91f_eng.bin)      | `44ee1451e72b8f662f369a86b488d4db`                           |
-| Psion Series 3    |                | 1.91f       | English<br />French<br />German<br />Spanish<br />Italian | [s3_v1.91f_multi.bin](Series3/s3_v1.91f_multi/s3_v1.91f_multi.bin)| `8a303be0714a49759a0982ea3a71aaf7`                           |
+| Psion Series 3    | 2.25f          | 1.77f       | English                                                   | [s3_v1.77f_eng1.bin](Series3/s3_v1.77f_eng/s3_v1.77f_eng1.bin)<br />[s3_v1.77f_eng2.bin](Series3/s3_v1.77f_eng/s3_v1.77f_eng2.bin) | `f45adbb8e951ac1be922279197baf6c6`<br />`3bf167eeb8f41d88981ed12632414e1d` |
+| Psion Series 3    | 2.28f          | 1.80f       | English<br />French<br />German<br />Italian              | [s3_v1.80f_multi.bin](Series3/s3_v1.80f_multi/s3_v1.80f_multi.bin)| `46f29831bdf170abbb5972d78465e4ab`                           |
+| Acorn Pocket Book | 2.36f          | 1.91f       | English                                                   | [pb_v1.91f_acn.bin](Series3/pb_v1.91f_acn/pb_v1.91f_acn.bin)<br />[acspell.bin](Series3/pb_v1.91f_acn/acspell.bin) | `2e3fd0717451d7621b664d7eb85e89be`<br />`4ecb448d5828855dbeaf223cef5fe346` |
+| Psion Series 3s   | 2.36f          | 1.91f       | English                                                   | [s3_v1.91f_eng.bin](Series3/s3_v1.91f_eng/s3_v1.91f_eng.bin)      | `44ee1451e72b8f662f369a86b488d4db`                           |
+| Psion Series 3    | 2.36f          | 1.91f       | English<br />French<br />German<br />Spanish<br />Italian | [s3_v1.91f_multi.bin](Series3/s3_v1.91f_multi/s3_v1.91f_multi.bin)| `8a303be0714a49759a0982ea3a71aaf7`                           |
 
 > [!NOTE]
 >
