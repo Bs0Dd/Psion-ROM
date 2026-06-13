@@ -77,11 +77,12 @@ cp "$ROOT_DIRECTORY/5mx/5mx_v1.05(255)_16_eng/5mx_v1.05(255)_16_eng.bin" psion5m
 cp "$ROOT_DIRECTORY/5mx/5mx_v1.05(260)_eng/5mx_v1.05(260)_eng.bin" psion5mx/s5mx_uk16_v260.rom
 cp "$ROOT_DIRECTORY/5mx/5mx_v1.05(292)_fre/5mx_v1.05(292)_fre.bin" psion5mx/s5mx_fr10_v292.rom
 cp "$ROOT_DIRECTORY/5mx/5mx_v1.05(315)_fre/5mx_v1.05(315)_fre.bin" psion5mx/s5mx_fr16_v315.rom
-# -- Ericsson MC218
-cp "$ROOT_DIRECTORY/MC218/MC218_v1.05(256)_eng/MC218_v1.05(256)_eng.bin" psion5mx/mc218_uk12_v256.rom
-cp "$ROOT_DIRECTORY/MC218/MC218_v1.05(259)_eng/MC218_v1.05(259)_eng.bin" psion5mx/mc218_uk12_v259.rom
-cp "$ROOT_DIRECTORY/MC218/MC218_v1.05(260)_ger/MC218_v1.05(260)_ger.bin" psion5mx/mc218_de12_v260.rom
-cp "$ROOT_DIRECTORY/MC218/MC218_v1.05(262)_fre/MC218_v1.05(262)_fre.bin" psion5mx/mc218_fr12_v262.rom
+
+mkdir mc218
+cp "$ROOT_DIRECTORY/MC218/MC218_v1.05(256)_eng/MC218_v1.05(256)_eng.bin" mc218/mc218_uk12_v256.rom
+cp "$ROOT_DIRECTORY/MC218/MC218_v1.05(259)_eng/MC218_v1.05(259)_eng.bin" mc218/mc218_uk12_v259.rom
+cp "$ROOT_DIRECTORY/MC218/MC218_v1.05(260)_ger/MC218_v1.05(260)_ger.bin" mc218/mc218_de12_v260.rom
+cp "$ROOT_DIRECTORY/MC218/MC218_v1.05(262)_fre/MC218_v1.05(262)_fre.bin" mc218/mc218_fr12_v262.rom
 
 mkdir psion5mxp
 # -- PRO BootLoaders
