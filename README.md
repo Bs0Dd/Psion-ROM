@@ -14,6 +14,7 @@ ROMs:
 - [Psion Workabout](#psion-workabout)
 - [Psion Workabout MX](#psion-workabout-mx)
 - [Psion Series 5](#psion-series-5)
+- [Geofox One](#geofox-one)
 - [Oregon Scientific Osaris](#oregon-scientific-osaris)
 - [Psion Series 5mx / Ericsson MC218](#psion-series-5mx--ericsson-mc218)
 - [Psion Series 5mx PRO](#psion-series-5mx-pro)
@@ -107,6 +108,12 @@ Utilities:
 > [!NOTE]
 >
 > - Early 1.00 (113) version was found on a rare (and probably unreleased) 4MB RAM machine. Written to 3x 2MB Flash chips.
+
+## Geofox One
+
+| Device             | EPOC32 Version | ROM  Version | Language | Filename                                                                            | MD5 Checksum                       |
+| ------------------ | -------------- | ------------ | -------- | ----------------------------------------------------------------------------------- | ---------------------------------- |
+| Geofox One         | Release 1      | 1.01 (146)   | English  | [Geofox_v1.01(146)_eng.bin](Geofox/Geofox_v1.01(146)_eng/Geofox_v1.01(146)_eng.bin) | `b7fc276fc321524951483651fa134027` |
 
 ## Oregon Scientific Osaris
 
