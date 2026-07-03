@@ -79,18 +79,23 @@ zip -rj "$BUILD_DIRECTORY/zip/psionwamx.zip" psionwamx
 # cp "$ROOT_DIRECTORY/Series5/S5_v1.01(145)_eng/S5_v1.01(145)_eng.bin" psion5
 # zip -rj "$BUILD_DIRECTORY/zip/psion5.zip" psion5
 
+# mkdir geofox ## not in 0.288 release
+# cp "$ROOT_DIRECTORY/Geofox/Geofox_v1.01(146)_eng/Geofox_v1.01(146)_eng.bin" geofox
+# zip -rj "$BUILD_DIRECTORY/zip/geofox.zip" geofox
+
 # mkdir osaris ## not in 0.288 release
 # cp "$ROOT_DIRECTORY/Osaris/Osaris_v1.02(209)_eng/Osaris_v1.02(209)_eng.bin" osaris
 # cp "$ROOT_DIRECTORY/Osaris/Osaris_v1.02(209)_fre/Osaris_v1.02(209)_fre.bin" osaris
 # zip -rj "$BUILD_DIRECTORY/zip/osaris.zip" osaris
 
 mkdir psion5mx
-cp "$ROOT_DIRECTORY/5mx/5mx_v1.05(250)_eng/5mx_v1.05(250)_eng.bin" psion5mx/s5mx_uk10_v250.rom
-cp "$ROOT_DIRECTORY/5mx/5mx_v1.05(255)_10_eng/5mx_v1.05(255)_10_eng.bin" psion5mx/s5mx_uk10_v255.rom
-cp "$ROOT_DIRECTORY/5mx/5mx_v1.05(255)_16_eng/5mx_v1.05(255)_16_eng.bin" psion5mx/s5mx_uk16_v255.rom
-cp "$ROOT_DIRECTORY/5mx/5mx_v1.05(260)_eng/5mx_v1.05(260)_eng.bin" psion5mx/s5mx_uk16_v260.rom
-cp "$ROOT_DIRECTORY/5mx/5mx_v1.05(292)_fre/5mx_v1.05(292)_fre.bin" psion5mx/s5mx_fr10_v292.rom
-cp "$ROOT_DIRECTORY/5mx/5mx_v1.05(315)_fre/5mx_v1.05(315)_fre.bin" psion5mx/s5mx_fr16_v315.rom
+cp "$ROOT_DIRECTORY/Series5mx/5mx_v1.05(250)_eng/5mx_v1.05(250)_eng.bin" psion5mx/s5mx_uk10_v250.rom
+# cp "$ROOT_DIRECTORY/Series5mx/5mx_v1.05(254)_eng/5mx_v1.05(254)_eng.bin" psion5mx/s5mx_uk10_v254.rom ## not in 0.288 release
+cp "$ROOT_DIRECTORY/Series5mx/5mx_v1.05(255)_10_eng/5mx_v1.05(255)_10_eng.bin" psion5mx/s5mx_uk10_v255.rom
+cp "$ROOT_DIRECTORY/Series5mx/5mx_v1.05(255)_16_eng/5mx_v1.05(255)_16_eng.bin" psion5mx/s5mx_uk16_v255.rom
+cp "$ROOT_DIRECTORY/Series5mx/5mx_v1.05(260)_eng/5mx_v1.05(260)_eng.bin" psion5mx/s5mx_uk16_v260.rom
+cp "$ROOT_DIRECTORY/Series5mx/5mx_v1.05(292)_fre/5mx_v1.05(292)_fre.bin" psion5mx/s5mx_fr10_v292.rom
+cp "$ROOT_DIRECTORY/Series5mx/5mx_v1.05(315)_fre/5mx_v1.05(315)_fre.bin" psion5mx/s5mx_fr16_v315.rom
 zip -rj "$BUILD_DIRECTORY/zip/psion5mx.zip" psion5mx
 
 mkdir mc218
@@ -102,8 +107,8 @@ zip -rj "$BUILD_DIRECTORY/zip/mc218.zip" mc218
 
 mkdir psion5mxp
 # -- PRO BootLoaders
-cp "$ROOT_DIRECTORY/5mxPRO/BootLoader/5mxPRO_BL_v1.08_ger/5mxPRO_BL_v1.08_ger.bin" psion5mxp/s5mx_blge_v108.bin
-cp "$ROOT_DIRECTORY/5mxPRO/BootLoader/5mxPRO_BL_v1.09_ger/5mxPRO_BL_v1.09_ger.bin" psion5mxp/s5mx_blge_v109.bin
+cp "$ROOT_DIRECTORY/Series5mxPRO/BootLoader/5mxPRO_BL_v1.08_ger/5mxPRO_BL_v1.08_ger.bin" psion5mxp/s5mx_blge_v108.bin
+cp "$ROOT_DIRECTORY/Series5mxPRO/BootLoader/5mxPRO_BL_v1.09_ger/5mxPRO_BL_v1.09_ger.bin" psion5mxp/s5mx_blge_v109.bin
 zip -rj "$BUILD_DIRECTORY/zip/psion5mxp.zip" psion5mxp
 
 mkdir revo
