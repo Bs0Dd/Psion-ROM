@@ -120,6 +120,10 @@ cp "$ROOT_DIRECTORY/Revo/Revo_v1.06(391)_ger/Revo_v1.06(391)_ger.bin" revo/revo_
 cp "$ROOT_DIRECTORY/Revo/Revo_v1.06(392)_fre/Revo_v1.06(392)_fre.bin" revo/revo_fr8_v392.rom
 zip -rj "$BUILD_DIRECTORY/zip/revo.zip" revo/
 
+# mkdir psion618c ## not in 0.288 release
+# cp "$ROOT_DIRECTORY/Revo/Revo_v1.08(14)_chitr/Revo_v1.08(14)_chitr.bin" psion618c/revo_сhtr16_v14.rom
+# zip -rj "$BUILD_DIRECTORY/zip/psion618c.zip" psion618c/
+
 mkdir psion7
 cp "$ROOT_DIRECTORY/Series7/S7_v1.05(254)_b754_eng/S7_v1.05(254)_b754_eng.bin" psion7/s7_105_254_build_754.rom
 cp "$ROOT_DIRECTORY/Series7/S7_v1.05(254)_b756_eng/S7_v1.05(254)_b756_eng.bin" psion7/s7_105_254_build_756.rom

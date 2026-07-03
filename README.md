@@ -179,18 +179,21 @@ Utilities:
 
 ## Psion Revo / Diamond Mako
 
-| Device     | EPOC32 Version | ROM  Version | Language | Filename                                                                    | MD5 Checksum                       |
-| ---------- | -------------- | ------------ | -------- | --------------------------------------------------------------------------- | ---------------------------------- |
-| Psion Revo | Release 5      | 1.06 (352)   | German   | [Revo_v1.06(352)_ger.bin](Revo/Revo_v1.06(352)_ger/Revo_v1.06(352)_ger.bin) | `18f5636c6b1df19ffa7afa2b18bab96f` |
-| Psion Revo | Release 5      | 1.06 (361)   | English  | [Revo_v1.06(361)_eng.bin](Revo/Revo_v1.06(361)_eng/Revo_v1.06(361)_eng.bin) | `77c39c71119aef56575e6f96cb920f2b` |
-| Psion Revo | Release 5      | 1.06 (369)   | German   | [Revo_v1.06(369)_ger.bin](Revo/Revo_v1.06(369)_ger/Revo_v1.06(369)_ger.bin) | `30bdc71e709d4142c87170ad4417a52d` |
-| Psion Revo | Release 5      | 1.06 (390)   | English  | [Revo_v1.06(390)_eng.bin](Revo/Revo_v1.06(390)_eng/Revo_v1.06(390)_eng.bin) | `9f0cb14967d29cfa52d11892f36db8bf` |
-| Psion Revo | Release 5      | 1.06 (391)   | German   | [Revo_v1.06(391)_ger.bin](Revo/Revo_v1.06(391)_ger/Revo_v1.06(391)_ger.bin) | `122c7fb21cd47684e1eb79fcaafda156` |
-| Psion Revo | Release 5      | 1.06 (392)   | French   | [Revo_v1.06(392)_fre.bin](Revo/Revo_v1.06(392)_fre/Revo_v1.06(392)_fre.bin) | `a0050a38c7b226de2c0907c0ef3b7719` |
+| Device          | EPOC32 Version | ROM  Version | Language            | Filename                                                                       | MD5 Checksum                       |
+| --------------- | -------------- | ------------ | ------------------- | ------------------------------------------------------------------------------ | ---------------------------------- |
+| Psion Revo      | Release 5      | 1.06 (352)   | German              | [Revo_v1.06(352)_ger.bin](Revo/Revo_v1.06(352)_ger/Revo_v1.06(352)_ger.bin)    | `18f5636c6b1df19ffa7afa2b18bab96f` |
+| Psion Revo      | Release 5      | 1.06 (361)   | English             | [Revo_v1.06(361)_eng.bin](Revo/Revo_v1.06(361)_eng/Revo_v1.06(361)_eng.bin)    | `77c39c71119aef56575e6f96cb920f2b` |
+| Psion Revo      | Release 5      | 1.06 (369)   | German              | [Revo_v1.06(369)_ger.bin](Revo/Revo_v1.06(369)_ger/Revo_v1.06(369)_ger.bin)    | `30bdc71e709d4142c87170ad4417a52d` |
+| Psion Revo      | Release 5      | 1.06 (390)   | English             | [Revo_v1.06(390)_eng.bin](Revo/Revo_v1.06(390)_eng/Revo_v1.06(390)_eng.bin)    | `9f0cb14967d29cfa52d11892f36db8bf` |
+| Psion Revo      | Release 5      | 1.06 (391)   | German              | [Revo_v1.06(391)_ger.bin](Revo/Revo_v1.06(391)_ger/Revo_v1.06(391)_ger.bin)    | `122c7fb21cd47684e1eb79fcaafda156` |
+| Psion Revo      | Release 5      | 1.06 (392)   | French              | [Revo_v1.06(392)_fre.bin](Revo/Revo_v1.06(392)_fre/Revo_v1.06(392)_fre.bin)    | `a0050a38c7b226de2c0907c0ef3b7719` |
+| Psion Revo 618C | Release 5      | 1.08 (14)    | Chinese Traditional | [Revo_v1.08(14)_chitr.bin](Revo/Revo_v1.08(14)_chitr/Revo_v1.08(14)_chitr.bin) | `f4cc461b3e766f98a0637d0bd68925ef` |
 
 > [!NOTE]
 >
 > - The Diamond Mako is a Revo Plus (16MB) for the USA/Canada market. It uses the same English ROM but reports the `English (US)` locale, which is set by the EEPROM flag.
+>
+> - Psion Revo 618 is a Chinese version of the Revo. Revo 618C contains Chinese Traditional firmware. Revo 618S - Chinese Simplified.
 
 ## Psion Series 7
 
