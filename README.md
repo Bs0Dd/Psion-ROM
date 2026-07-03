@@ -82,7 +82,7 @@ Utilities:
 
 > [!NOTE]
 >
-> - UK and USA versions of Siena uses the same English ROM but reports the `USA` locale, which is probably set by the EEPROM flag.
+> - UK and USA versions of Siena use the same English ROM but report the `USA` locale, which is probably set by the EEPROM flag.
 
 ## Psion Workabout
 
@@ -127,6 +127,7 @@ Utilities:
 | Device             | EPOC32 Version | ROM  Version | Language       | Filename                                                                         | MD5 Checksum                       |
 | ------------------ | -------------- | ------------ | -------------- | -------------------------------------------------------------------------------- | ---------------------------------- |
 | Psion Series 5mx   | Release 5      | 1.05 (250)   | English        | [5mx_v1.05(250)_eng.bin](5mx/5mx_v1.05(250)_eng/5mx_v1.05(250)_eng.bin)          | `672afdf329d46876d4a0b39f348b2c52` |
+| Psion Series 5mx   | Release 5      | 1.05 (254)   | English (OEM)  | [5mx_v1.05(254)_eng.bin](5mx/5mx_v1.05(254)_eng/5mx_v1.05(254)_eng.bin)          | `e2a002ede0522c10735f91c692786804` |
 | Psion Series 5mx   | Release 5      | 1.05 (255)   | English (10MB) | [5mx_v1.05(255)_10_eng.bin](5mx/5mx_v1.05(255)_10_eng/5mx_v1.05(255)_10_eng.bin) | `5f9d1d23a05c84859a070723cc9d83bc` |
 | Psion Series 5mx   | Release 5      | 1.05 (255)   | English (16MB) | [5mx_v1.05(255)_16_eng.bin](5mx/5mx_v1.05(255)_16_eng/5mx_v1.05(255)_16_eng.bin) | `206220fd3316e6e950bdc814d748d542` |
 | Psion Series 5mx   | Release 5      | 1.05 (260)   | English        | [5mx_v1.05(260)_eng.bin](5mx/5mx_v1.05(260)_eng/5mx_v1.05(260)_eng.bin)          | `105df0efa78e573387c9b813475d6577` |
@@ -146,6 +147,8 @@ Utilities:
 > - Ericsson MC218 is a 5mx with a custom design and additional Ericsson software in ROM.
 >
 > - For some reason, the German and French versions of the MC218 ROM do not contain the templates present in the English version.
+>
+> - Build 254 is the OEM (without Psion branding) version of build 255. Should be a base for the Ericsson MC218 firmware. Was never publicly released.
 
 ## Psion Series 5mx PRO
 
@@ -227,7 +230,7 @@ Update your device with `Build 75x` to the `Build 756` - [English](Series7/Updat
 
 > [!NOTE]
 >
-> - The bootloader is the program stored in the netBook's Personality Module (Flash chip), in fact, it's a "micro"-EPOC distributive. It loads the OS into RAM from the CF card or via RS232 (YMODEM protocol). Placed at `0x00000000`.
+> - The bootloader is the program stored in the netBook's Personality Module (Flash chip); in fact, it's a "micro"-EPOC distribution. It loads the OS into RAM from the CF card or via RS232 (YMODEM protocol). Placed at `0x00000000`.
 >
 > - The name `OS.IMG` is standard for these files, as the netBook bootloader expects a file with this name to be present in the root of the CF card in order to load it into RAM.
 >
@@ -235,7 +238,7 @@ Update your device with `Build 75x` to the `Build 756` - [English](Series7/Updat
 >
 > - In some language versions (Release 158), certain components are included separately from the OS. You can find them [here](<Tools/Optional Components/>).
 >
-> - Patched versions (Release 158) contain some bugfixes and improvements made by Petr "Poke" Petyovsky. The list of changes can be found [here](netBook/Patched/readme.txt).
+> - Patched versions (Release 158) contain some bug fixes and improvements made by Petr "Poke" Petyovsky. The list of changes can be found [here](netBook/Patched/readme.txt).
 >
 > - German variant of Psion netBook OS image (Release 158) was distributed without the source of the OPL toolbar. If you're an OPL developer, you can copy the `toolbar` source from [here](netBook/Patched/netBook_v1.05(457)_patch_ger/MissingFiles).
 >
