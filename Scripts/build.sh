@@ -133,3 +133,7 @@ mkdir netbook
 # -- nB BootLoader
 cp "$ROOT_DIRECTORY/netBook/BootLoader/netBook_BL_v011_eng/netBook_BL_v011_eng.bin" netbook/nb_bl_v011.bin
 zip -rj "$BUILD_DIRECTORY/zip/netbook.zip" netbook/
+
+# mkdir netpad ## not in 0.288 release
+# cp "$ROOT_DIRECTORY/netPad/netPad_v1.40(174)_ger/netPad_v1.40(174)_ger.bin" netpad
+# zip -rj "$BUILD_DIRECTORY/zip/netpad.zip" netpad/
