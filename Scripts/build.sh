@@ -77,6 +77,7 @@ zip -rj "$BUILD_DIRECTORY/zip/psionwamx.zip" psionwamx
 # mkdir psion5 ## not in 0.288 release
 # cp "$ROOT_DIRECTORY/Series5/S5_v1.00(113)_eng/S5_v1.00(113)_eng.bin" psion5
 # cp "$ROOT_DIRECTORY/Series5/S5_v1.01(145)_eng/S5_v1.01(145)_eng.bin" psion5
+# cp "$ROOT_DIRECTORY/Series5/S5_v1.01(145)_ger/S5_v1.01(145)_ger.bin" psion5
 # zip -rj "$BUILD_DIRECTORY/zip/psion5.zip" psion5
 
 # mkdir geofox ## not in 0.288 release

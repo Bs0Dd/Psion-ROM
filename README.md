@@ -112,7 +112,8 @@ Utilities:
 | Device         | EPOC32 Version | ROM Version | Language | Filename                                                                 | MD5 Checksum                       |
 | -------------- | -------------- | ----------- | -------- | ------------------------------------------------------------------------ | ---------------------------------- |
 | Psion Series 5 | Release 1      | 1.00 (113)  | English  | [S5_v1.00(113)_eng.bin](Series5/S5_v1.00(113)_eng/S5_v1.00(113)_eng.bin) | `1770762d4abddc79e861b5747315945b` |
-| Psion Series 5 | Release 1      | 1.01 (145)  | English  | [S5_v1.01(145)_eng.bin](Series5/S5_v1.01(145)_eng/S5_v1.01(145)_eng.bin) | `cec9ed502a648fcf19d0f2712d0ac54c` |
+| Psion Series 5 | Release 3      | 1.01 (145)  | English  | [S5_v1.01(145)_eng.bin](Series5/S5_v1.01(145)_eng/S5_v1.01(145)_eng.bin) | `cec9ed502a648fcf19d0f2712d0ac54c` |
+| Psion Series 5 | Release 3      | 1.01 (145)  | German   | [S5_v1.01(145)_ger.bin](Series5/S5_v1.01(145)_ger/S5_v1.01(145)_ger.bin) | `09a88b259f521168e0b2e9659bfe42ad` |
 
 > [!NOTE]
 >
@@ -123,7 +124,7 @@ Utilities:
 
 | Device     | EPOC32 Version | ROM Version | Language | Filename                                                                            | MD5 Checksum                       |
 | ---------- | -------------- | ----------- | -------- | ----------------------------------------------------------------------------------- | ---------------------------------- |
-| Geofox One | Release 1      | 1.01 (146)  | English  | [Geofox_v1.01(146)_eng.bin](Geofox/Geofox_v1.01(146)_eng/Geofox_v1.01(146)_eng.bin) | `b7fc276fc321524951483651fa134027` |
+| Geofox One | Release 3      | 1.01 (146)  | English  | [Geofox_v1.01(146)_eng.bin](Geofox/Geofox_v1.01(146)_eng/Geofox_v1.01(146)_eng.bin) | `b7fc276fc321524951483651fa134027` |
 
 
 ## Oregon Scientific Osaris
