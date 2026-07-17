@@ -113,7 +113,9 @@ Utilities:
 | -------------- | -------------- | ----------- | -------- | ------------------------------------------------------------------------ | ---------------------------------- |
 | Psion Series 5 | Release 1      | 1.00 (113)  | English  | [S5_v1.00(113)_eng.bin](Series5/S5_v1.00(113)_eng/S5_v1.00(113)_eng.bin) | `1770762d4abddc79e861b5747315945b` |
 | Psion Series 5 | Release 3      | 1.01 (145)  | English  | [S5_v1.01(145)_eng.bin](Series5/S5_v1.01(145)_eng/S5_v1.01(145)_eng.bin) | `cec9ed502a648fcf19d0f2712d0ac54c` |
+| Psion Series 5 | Release 3      | 1.01 (145)  | Dutch    | [S5_v1.01(145)_nl.bin](Series5/S5_v1.01(145)_nl/S5_v1.01(145)_nl.bin)    | `c042eaccdea5075460ef23b01d4b7af3` |
 | Psion Series 5 | Release 3      | 1.01 (145)  | German   | [S5_v1.01(145)_ger.bin](Series5/S5_v1.01(145)_ger/S5_v1.01(145)_ger.bin) | `09a88b259f521168e0b2e9659bfe42ad` |
+| Psion Series 5 | Release 3      | 1.01 (145)  | Italian  | [S5_v1.01(145)_ita.bin](Series5/S5_v1.01(145)_ita/S5_v1.01(145)_ita.bin) | `68931e7c24bbffd291fdf1816db05306` |
 
 > [!NOTE]
 >
